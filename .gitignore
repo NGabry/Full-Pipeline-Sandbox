@@ -1,0 +1,6 @@
+"*.fastq"
+"*.fasta"
+/fasta
+.ipynb_checkpoints
+__pycache__/
+.DS_*

@@ -1,0 +1,2 @@
+subsample.bam filter=lfs diff=lfs merge=lfs -text
+*.qza filter=lfs diff=lfs merge=lfs -text
