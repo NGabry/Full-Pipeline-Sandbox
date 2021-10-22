@@ -89,8 +89,8 @@ F09R17	TGAGCGGAACTCTATTCGTC	9	17	CTRL-3-B	F9R17	n/a	n/a	n/a	Bog	n/a	n/a	Fecal	Bo
 F09R18	TGAGCGGAACAGGCAATTGC	9	18	CTRL-4-B	F9R18	n/a	n/a	n/a	Bog	n/a	n/a	Fecal	Bog-Fecal	ANML-3	0
 F09R19	TGAGCGGAACTTAGTCGGAC	9	19	CTRL-5-B	F9R19	n/a	n/a	n/a	Bog	n/a	n/a	Fecal	Bog-Fecal	ANML-3	0
 F09R20	TGAGCGGAACCAGATCCATC	9	20	CTRL-6-B	F9R20	n/a	n/a	n/a	Bog	n/a	n/a	Fecal	Bog-Fecal	ANML-3	0
-F10R11	CTGACCGAACTCCTCGAATC	10	12	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	1
-F10R12	CTGACCGAACTAGGTGGTTC	10	11	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	1
+F10R11	CTGACCGAACTCCTCGAATC	10	11	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	1
+F10R12	CTGACCGAACTAGGTGGTTC	10	12	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	1
 F10R13	CTGACCGAACTCTAACGGAC	10	13	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	1
 F10R14	CTGACCGAACTTGGAGTGTC	10	14	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	1
 F10R15	CTGACCGAACTCTAGAGGTC	10	15	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	1
