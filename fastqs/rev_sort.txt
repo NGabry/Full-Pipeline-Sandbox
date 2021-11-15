@@ -1,0 +1,6215 @@
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATTCGAGGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07R11.fastq F07.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.53 s (7 µs/read; 8.72 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  77,462
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           77,462 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:    20,338,082 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATTCGAGGA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GAACCACCTA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07R12.fastq F07.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.52 s (7 µs/read; 8.91 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  77,462
+Reads with adapters:                     3,599 (4.6%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           73,863 (95.4%)
+Reads written (passing filters):         3,599 (4.6%)
+
+Total basepairs processed:    20,338,082 bp
+Total written (filtered):        840,478 bp (4.1%)
+
+=== Adapter 1 ===
+
+Sequence: GAACCACCTA; Type: regular 3'; Length: 10; Trimmed: 3599 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 96.9%
+  G: 2.8%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	133	0.1	0	133
+11	2	0.1	0	2
+12	1	0.1	0	1
+14	3	0.1	0	3
+15	5	0.1	0	5
+16	3	0.1	0	3
+17	2	0.1	0	2
+19	3	0.1	0	3
+21	1	0.1	0	1
+25	4	0.1	0	4
+26	1	0.1	0	1
+27	1	0.1	0	1
+28	1	0.1	0	1
+29	3	0.1	0	3
+30	1	0.1	0	1
+31	4	0.1	0	4
+32	5	0.1	0	5
+33	3	0.1	0	3
+34	8	0.1	0	8
+36	1	0.1	0	1
+37	5	0.1	0	5
+38	4	0.1	0	4
+41	1	0.1	0	1
+42	1	0.1	0	1
+44	1	0.1	0	1
+46	2	0.1	0	2
+47	1	0.1	0	1
+48	3	0.1	0	3
+52	1	0.1	0	1
+54	1	0.1	0	1
+55	1	0.1	0	1
+58	1	0.1	0	1
+59	7	0.1	0	7
+60	7	0.1	0	7
+61	18	0.1	0	18
+62	125	0.1	0	125
+63	2855	0.1	0	2855
+64	296	0.1	0	296
+65	59	0.1	0	59
+66	18	0.1	0	18
+67	3	0.1	0	3
+68	2	0.1	0	2
+70	1	0.1	0	1
+76	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGTTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07R13.fastq F07.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.53 s (7 µs/read; 8.73 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  77,462
+Reads with adapters:                     9,761 (12.6%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           67,701 (87.4%)
+Reads written (passing filters):         9,761 (12.6%)
+
+Total basepairs processed:    20,338,082 bp
+Total written (filtered):      2,272,469 bp (11.2%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGTTAGA; Type: regular 3'; Length: 10; Trimmed: 9761 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.2%
+  G: 0.4%
+  T: 0.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	2786	0.1	0	2786
+11	5	0.1	0	5
+12	3	0.1	0	3
+13	5	0.1	0	5
+14	2	0.1	0	2
+15	3	0.1	0	3
+16	1	0.1	0	1
+18	1	0.1	0	1
+19	2	0.1	0	2
+20	1	0.1	0	1
+21	1	0.1	0	1
+22	2	0.1	0	2
+24	1	0.1	0	1
+25	6	0.1	0	6
+27	2	0.1	0	2
+28	1	0.1	0	1
+29	1	0.1	0	1
+30	1	0.1	0	1
+33	2	0.1	0	2
+35	2	0.1	0	2
+36	2	0.1	0	2
+37	3	0.1	0	3
+38	1	0.1	0	1
+39	2	0.1	0	2
+40	1	0.1	0	1
+41	3	0.1	0	3
+42	1	0.1	0	1
+43	6	0.1	0	6
+44	6	0.1	0	6
+45	1	0.1	0	1
+46	3	0.1	0	3
+49	3	0.1	0	3
+50	2	0.1	0	2
+52	2	0.1	0	2
+53	1	0.1	0	1
+54	1	0.1	0	1
+58	2	0.1	0	2
+59	4	0.1	0	4
+60	9	0.1	0	9
+61	59	0.1	0	59
+62	365	0.1	0	365
+63	5065	0.1	0	5065
+64	1173	0.1	0	1173
+65	138	0.1	0	138
+66	49	0.1	0	49
+67	15	0.1	0	15
+68	5	0.1	0	5
+69	5	0.1	0	5
+70	1	0.1	0	1
+71	2	0.1	0	2
+72	1	0.1	0	1
+73	1	0.1	0	1
+78	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACACTCCAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07R14.fastq F07.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.50 s (6 µs/read; 9.38 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  77,462
+Reads with adapters:                     5,568 (7.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           71,894 (92.8%)
+Reads written (passing filters):         5,568 (7.2%)
+
+Total basepairs processed:    20,338,082 bp
+Total written (filtered):      1,294,463 bp (6.4%)
+
+=== Adapter 1 ===
+
+Sequence: GACACTCCAA; Type: regular 3'; Length: 10; Trimmed: 5568 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.5%
+  G: 0.8%
+  T: 0.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	402	0.1	0	402
+11	15	0.1	0	15
+12	3	0.1	0	3
+13	2	0.1	0	2
+14	6	0.1	0	6
+15	5	0.1	0	5
+16	1	0.1	0	1
+17	3	0.1	0	3
+18	1	0.1	0	1
+19	2	0.1	0	2
+20	1	0.1	0	1
+21	1	0.1	0	1
+22	1	0.1	0	1
+23	2	0.1	0	2
+24	6	0.1	0	6
+25	2	0.1	0	2
+26	2	0.1	0	2
+27	3	0.1	0	3
+28	1	0.1	0	1
+30	2	0.1	0	2
+32	3	0.1	0	3
+33	3	0.1	0	3
+35	2	0.1	0	2
+37	4	0.1	0	4
+38	3	0.1	0	3
+40	1	0.1	0	1
+41	1	0.1	0	1
+42	1	0.1	0	1
+43	2	0.1	0	2
+44	2	0.1	0	2
+45	3	0.1	0	3
+46	3	0.1	0	3
+47	2	0.1	0	2
+48	2	0.1	0	2
+49	1	0.1	0	1
+50	3	0.1	0	3
+52	1	0.1	0	1
+53	1	0.1	0	1
+54	1	0.1	0	1
+55	1	0.1	0	1
+57	1	0.1	0	1
+58	4	0.1	0	4
+59	1	0.1	0	1
+60	5	0.1	0	5
+61	72	0.1	0	72
+62	336	0.1	0	336
+63	3880	0.1	0	3880
+64	588	0.1	0	588
+65	117	0.1	0	117
+66	43	0.1	0	43
+67	10	0.1	0	10
+68	4	0.1	0	4
+69	4	0.1	0	4
+73	1	0.1	0	1
+75	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACCTCTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07R15.fastq F07.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.49 s (6 µs/read; 9.44 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  77,462
+Reads with adapters:                     5,704 (7.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           71,758 (92.6%)
+Reads written (passing filters):         5,704 (7.4%)
+
+Total basepairs processed:    20,338,082 bp
+Total written (filtered):      1,329,362 bp (6.5%)
+
+=== Adapter 1 ===
+
+Sequence: GACCTCTAGA; Type: regular 3'; Length: 10; Trimmed: 5704 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.1%
+  G: 0.7%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	4811	0.1	0	4811
+11	6	0.1	0	6
+12	1	0.1	0	1
+14	1	0.1	0	1
+27	1	0.1	0	1
+30	1	0.1	0	1
+33	1	0.1	0	1
+34	1	0.1	0	1
+37	1	0.1	0	1
+41	2	0.1	0	2
+45	1	0.1	0	1
+47	1	0.1	0	1
+49	1	0.1	0	1
+52	1	0.1	0	1
+53	1	0.1	0	1
+58	1	0.1	0	1
+59	1	0.1	0	1
+60	1	0.1	0	1
+61	8	0.1	0	8
+62	23	0.1	0	23
+63	449	0.1	0	449
+64	339	0.1	0	339
+65	41	0.1	0	41
+66	5	0.1	0	5
+67	3	0.1	0	3
+68	1	0.1	0	1
+73	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCATCCAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07R16.fastq F07.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.50 s (6 µs/read; 9.30 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  77,462
+Reads with adapters:                     4,386 (5.7%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           73,076 (94.3%)
+Reads written (passing filters):         4,386 (5.7%)
+
+Total basepairs processed:    20,338,082 bp
+Total written (filtered):      1,022,082 bp (5.0%)
+
+=== Adapter 1 ===
+
+Sequence: GTCATCCAGA; Type: regular 3'; Length: 10; Trimmed: 4386 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.2%
+  G: 0.3%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1439	0.1	0	1439
+11	3	0.1	0	3
+13	2	0.1	0	2
+14	1	0.1	0	1
+24	2	0.1	0	2
+26	2	0.1	0	2
+29	1	0.1	0	1
+32	1	0.1	0	1
+35	1	0.1	0	1
+38	4	0.1	0	4
+40	1	0.1	0	1
+41	1	0.1	0	1
+42	1	0.1	0	1
+43	4	0.1	0	4
+44	2	0.1	0	2
+45	2	0.1	0	2
+46	1	0.1	0	1
+47	2	0.1	0	2
+48	2	0.1	0	2
+50	1	0.1	0	1
+51	1	0.1	0	1
+57	1	0.1	0	1
+59	3	0.1	0	3
+60	2	0.1	0	2
+61	9	0.1	0	9
+62	105	0.1	0	105
+63	2232	0.1	0	2232
+64	463	0.1	0	463
+65	77	0.1	0	77
+66	9	0.1	0	9
+67	4	0.1	0	4
+68	1	0.1	0	1
+69	1	0.1	0	1
+71	1	0.1	0	1
+76	1	0.1	0	1
+100	1	0.1	0	1
+110	1	0.1	0	1
+193	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACGAATAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07R17.fastq F07.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.49 s (6 µs/read; 9.57 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  77,462
+Reads with adapters:                     2,626 (3.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           74,836 (96.6%)
+Reads written (passing filters):         2,626 (3.4%)
+
+Total basepairs processed:    20,338,082 bp
+Total written (filtered):        617,476 bp (3.0%)
+
+=== Adapter 1 ===
+
+Sequence: GACGAATAGA; Type: regular 3'; Length: 10; Trimmed: 2626 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 97.9%
+  G: 0.5%
+  T: 1.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	177	0.1	0	177
+11	1	0.1	0	1
+26	1	0.1	0	1
+30	1	0.1	0	1
+34	1	0.1	0	1
+35	2	0.1	0	2
+36	1	0.1	0	1
+38	2	0.1	0	2
+40	3	0.1	0	3
+42	1	0.1	0	1
+43	2	0.1	0	2
+44	1	0.1	0	1
+45	1	0.1	0	1
+46	1	0.1	0	1
+47	2	0.1	0	2
+48	2	0.1	0	2
+49	1	0.1	0	1
+50	1	0.1	0	1
+54	1	0.1	0	1
+58	1	0.1	0	1
+59	3	0.1	0	3
+60	5	0.1	0	5
+61	15	0.1	0	15
+62	86	0.1	0	86
+63	1879	0.1	0	1879
+64	337	0.1	0	337
+65	77	0.1	0	77
+66	13	0.1	0	13
+67	4	0.1	0	4
+68	1	0.1	0	1
+69	1	0.1	0	1
+70	1	0.1	0	1
+71	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GCAATTGCCT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07R18.fastq F07.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.49 s (6 µs/read; 9.50 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  77,462
+Reads with adapters:                     4,578 (5.9%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           72,884 (94.1%)
+Reads written (passing filters):         4,578 (5.9%)
+
+Total basepairs processed:    20,338,082 bp
+Total written (filtered):      1,066,810 bp (5.2%)
+
+=== Adapter 1 ===
+
+Sequence: GCAATTGCCT; Type: regular 3'; Length: 10; Trimmed: 4578 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.4%
+  G: 1.3%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	105	0.1	0	105
+11	5	0.1	0	5
+13	2	0.1	0	2
+14	2	0.1	0	2
+15	2	0.1	0	2
+16	1	0.1	0	1
+17	3	0.1	0	3
+18	4	0.1	0	4
+20	1	0.1	0	1
+21	1	0.1	0	1
+22	3	0.1	0	3
+23	1	0.1	0	1
+25	2	0.1	0	2
+27	1	0.1	0	1
+28	2	0.1	0	2
+30	1	0.1	0	1
+31	1	0.1	0	1
+32	4	0.1	0	4
+36	1	0.1	0	1
+37	1	0.1	0	1
+38	1	0.1	0	1
+39	3	0.1	0	3
+40	1	0.1	0	1
+41	1	0.1	0	1
+42	5	0.1	0	5
+43	2	0.1	0	2
+45	3	0.1	0	3
+46	4	0.1	0	4
+47	2	0.1	0	2
+48	3	0.1	0	3
+49	2	0.1	0	2
+50	4	0.1	0	4
+51	5	0.1	0	5
+53	2	0.1	0	2
+54	1	0.1	0	1
+59	1	0.1	0	1
+60	3	0.1	0	3
+61	17	0.1	0	17
+62	129	0.1	0	129
+63	3553	0.1	0	3553
+64	511	0.1	0	511
+65	111	0.1	0	111
+66	31	0.1	0	31
+67	20	0.1	0	20
+68	8	0.1	0	8
+69	6	0.1	0	6
+70	1	0.1	0	1
+73	1	0.1	0	1
+74	1	0.1	0	1
+78	1	0.1	0	1
+81	1	0.1	0	1
+100	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGACTAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07R19.fastq F07.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.61 s (8 µs/read; 7.64 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  77,462
+Reads with adapters:                     6,093 (7.9%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           71,369 (92.1%)
+Reads written (passing filters):         6,093 (7.9%)
+
+Total basepairs processed:    20,338,082 bp
+Total written (filtered):      1,418,149 bp (7.0%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGACTAA; Type: regular 3'; Length: 10; Trimmed: 6093 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.9%
+  G: 0.9%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	135	0.1	0	135
+11	21	0.1	0	21
+13	2	0.1	0	2
+14	4	0.1	0	4
+15	2	0.1	0	2
+16	1	0.1	0	1
+18	1	0.1	0	1
+22	1	0.1	0	1
+24	2	0.1	0	2
+26	1	0.1	0	1
+27	1	0.1	0	1
+28	2	0.1	0	2
+30	2	0.1	0	2
+32	1	0.1	0	1
+34	2	0.1	0	2
+35	3	0.1	0	3
+36	2	0.1	0	2
+37	1	0.1	0	1
+38	1	0.1	0	1
+39	1	0.1	0	1
+40	5	0.1	0	5
+41	2	0.1	0	2
+43	3	0.1	0	3
+44	3	0.1	0	3
+45	3	0.1	0	3
+46	2	0.1	0	2
+48	1	0.1	0	1
+49	3	0.1	0	3
+52	1	0.1	0	1
+55	2	0.1	0	2
+56	1	0.1	0	1
+58	2	0.1	0	2
+59	4	0.1	0	4
+60	5	0.1	0	5
+61	33	0.1	0	33
+62	229	0.1	0	229
+63	4911	0.1	0	4911
+64	526	0.1	0	526
+65	113	0.1	0	113
+66	34	0.1	0	34
+67	10	0.1	0	10
+68	8	0.1	0	8
+69	2	0.1	0	2
+70	1	0.1	0	1
+72	1	0.1	0	1
+73	1	0.1	0	1
+96	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATGGATCTG --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07R20.fastq F07.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.53 s (7 µs/read; 8.75 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  77,462
+Reads with adapters:                    15,660 (20.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           61,802 (79.8%)
+Reads written (passing filters):        15,660 (20.2%)
+
+Total basepairs processed:    20,338,082 bp
+Total written (filtered):      3,652,780 bp (18.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATGGATCTG; Type: regular 3'; Length: 10; Trimmed: 15660 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 85.5%
+  G: 13.5%
+  T: 1.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	994	0.1	0	994
+11	12	0.1	0	12
+12	7	0.1	0	7
+13	8	0.1	0	8
+14	5	0.1	0	5
+15	4	0.1	0	4
+16	2	0.1	0	2
+17	4	0.1	0	4
+18	4	0.1	0	4
+19	4	0.1	0	4
+20	6	0.1	0	6
+21	4	0.1	0	4
+22	10	0.1	0	10
+23	3	0.1	0	3
+24	5	0.1	0	5
+25	11	0.1	0	11
+26	3	0.1	0	3
+27	5	0.1	0	5
+28	13	0.1	0	13
+29	8	0.1	0	8
+30	9	0.1	0	9
+31	7	0.1	0	7
+32	11	0.1	0	11
+33	12	0.1	0	12
+34	7	0.1	0	7
+35	5	0.1	0	5
+36	9	0.1	0	9
+37	9	0.1	0	9
+38	7	0.1	0	7
+39	7	0.1	0	7
+40	12	0.1	0	12
+41	9	0.1	0	9
+42	15	0.1	0	15
+43	12	0.1	0	12
+44	17	0.1	0	17
+45	14	0.1	0	14
+46	10	0.1	0	10
+47	12	0.1	0	12
+48	6	0.1	0	6
+49	6	0.1	0	6
+50	4	0.1	0	4
+51	10	0.1	0	10
+52	4	0.1	0	4
+53	8	0.1	0	8
+54	1	0.1	0	1
+55	1	0.1	0	1
+56	1	0.1	0	1
+57	5	0.1	0	5
+58	5	0.1	0	5
+59	9	0.1	0	9
+60	35	0.1	0	35
+61	139	0.1	0	139
+62	1018	0.1	0	1018
+63	10890	0.1	0	10890
+64	1618	0.1	0	1618
+65	407	0.1	0	407
+66	116	0.1	0	116
+67	41	0.1	0	41
+68	17	0.1	0	17
+69	8	0.1	0	8
+70	5	0.1	0	5
+71	4	0.1	0	4
+72	2	0.1	0	2
+74	1	0.1	0	1
+80	1	0.1	0	1
+113	1	0.1	0	1
+126	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATTCGAGGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05R11.fastq F05.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.47 s (7 µs/read; 8.88 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  69,584
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           69,584 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:    18,524,288 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATTCGAGGA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GAACCACCTA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05R12.fastq F05.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.50 s (7 µs/read; 8.33 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  69,584
+Reads with adapters:                     7,611 (10.9%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           61,973 (89.1%)
+Reads written (passing filters):         7,611 (10.9%)
+
+Total basepairs processed:    18,524,288 bp
+Total written (filtered):      1,770,723 bp (9.6%)
+
+=== Adapter 1 ===
+
+Sequence: GAACCACCTA; Type: regular 3'; Length: 10; Trimmed: 7611 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 98.0%
+  G: 1.0%
+  T: 0.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	373	0.1	0	373
+11	1	0.1	0	1
+12	1	0.1	0	1
+14	3	0.1	0	3
+15	1	0.1	0	1
+17	5	0.1	0	5
+18	1	0.1	0	1
+19	3	0.1	0	3
+22	2	0.1	0	2
+25	1	0.1	0	1
+27	1	0.1	0	1
+28	1	0.1	0	1
+33	2	0.1	0	2
+34	1	0.1	0	1
+36	1	0.1	0	1
+37	2	0.1	0	2
+39	1	0.1	0	1
+40	3	0.1	0	3
+41	2	0.1	0	2
+42	2	0.1	0	2
+43	1	0.1	0	1
+44	6	0.1	0	6
+45	2	0.1	0	2
+46	3	0.1	0	3
+49	2	0.1	0	2
+51	1	0.1	0	1
+52	1	0.1	0	1
+53	1	0.1	0	1
+54	1	0.1	0	1
+57	2	0.1	0	2
+58	3	0.1	0	3
+59	6	0.1	0	6
+60	2	0.1	0	2
+61	25	0.1	0	25
+62	137	0.1	0	137
+63	6200	0.1	0	6200
+64	596	0.1	0	596
+65	141	0.1	0	141
+66	44	0.1	0	44
+67	18	0.1	0	18
+68	4	0.1	0	4
+70	1	0.1	0	1
+71	1	0.1	0	1
+72	1	0.1	0	1
+73	1	0.1	0	1
+79	1	0.1	0	1
+92	1	0.1	0	1
+151	1	0.1	0	1
+194	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGTTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05R13.fastq F05.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.48 s (7 µs/read; 8.66 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  69,584
+Reads with adapters:                     2,593 (3.7%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           66,991 (96.3%)
+Reads written (passing filters):         2,593 (3.7%)
+
+Total basepairs processed:    18,524,288 bp
+Total written (filtered):        602,375 bp (3.3%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGTTAGA; Type: regular 3'; Length: 10; Trimmed: 2593 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.2%
+  C: 99.5%
+  G: 0.0%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	23	0.1	0	23
+14	1	0.1	0	1
+21	1	0.1	0	1
+25	1	0.1	0	1
+27	1	0.1	0	1
+28	1	0.1	0	1
+30	2	0.1	0	2
+32	1	0.1	0	1
+33	1	0.1	0	1
+37	1	0.1	0	1
+41	1	0.1	0	1
+42	1	0.1	0	1
+46	1	0.1	0	1
+47	2	0.1	0	2
+49	1	0.1	0	1
+58	1	0.1	0	1
+59	1	0.1	0	1
+60	1	0.1	0	1
+61	15	0.1	0	15
+62	123	0.1	0	123
+63	2234	0.1	0	2234
+64	149	0.1	0	149
+65	19	0.1	0	19
+66	6	0.1	0	6
+67	3	0.1	0	3
+68	1	0.1	0	1
+71	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACACTCCAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05R14.fastq F05.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.48 s (7 µs/read; 8.68 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  69,584
+Reads with adapters:                     6,695 (9.6%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           62,889 (90.4%)
+Reads written (passing filters):         6,695 (9.6%)
+
+Total basepairs processed:    18,524,288 bp
+Total written (filtered):      1,558,023 bp (8.4%)
+
+=== Adapter 1 ===
+
+Sequence: GACACTCCAA; Type: regular 3'; Length: 10; Trimmed: 6695 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 85.9%
+  G: 13.5%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	494	0.1	0	494
+11	21	0.1	0	21
+12	2	0.1	0	2
+13	4	0.1	0	4
+14	4	0.1	0	4
+15	3	0.1	0	3
+16	3	0.1	0	3
+17	5	0.1	0	5
+18	8	0.1	0	8
+19	8	0.1	0	8
+20	4	0.1	0	4
+21	2	0.1	0	2
+22	2	0.1	0	2
+23	3	0.1	0	3
+24	5	0.1	0	5
+25	11	0.1	0	11
+27	3	0.1	0	3
+28	3	0.1	0	3
+29	3	0.1	0	3
+30	9	0.1	0	9
+31	2	0.1	0	2
+32	4	0.1	0	4
+33	1	0.1	0	1
+34	5	0.1	0	5
+35	5	0.1	0	5
+36	4	0.1	0	4
+37	9	0.1	0	9
+38	5	0.1	0	5
+39	7	0.1	0	7
+41	3	0.1	0	3
+42	6	0.1	0	6
+43	3	0.1	0	3
+44	6	0.1	0	6
+45	4	0.1	0	4
+46	6	0.1	0	6
+47	1	0.1	0	1
+48	3	0.1	0	3
+50	3	0.1	0	3
+51	3	0.1	0	3
+52	1	0.1	0	1
+53	5	0.1	0	5
+55	1	0.1	0	1
+58	5	0.1	0	5
+59	2	0.1	0	2
+60	5	0.1	0	5
+61	35	0.1	0	35
+62	284	0.1	0	284
+63	4774	0.1	0	4774
+64	656	0.1	0	656
+65	155	0.1	0	155
+66	60	0.1	0	60
+67	24	0.1	0	24
+68	4	0.1	0	4
+69	4	0.1	0	4
+70	1	0.1	0	1
+71	2	0.1	0	2
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACCTCTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05R15.fastq F05.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.48 s (7 µs/read; 8.77 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  69,584
+Reads with adapters:                     2,315 (3.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           67,269 (96.7%)
+Reads written (passing filters):         2,315 (3.3%)
+
+Total basepairs processed:    18,524,288 bp
+Total written (filtered):        538,346 bp (2.9%)
+
+=== Adapter 1 ===
+
+Sequence: GACCTCTAGA; Type: regular 3'; Length: 10; Trimmed: 2315 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 95.1%
+  G: 4.7%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1864	0.1	0	1864
+11	4	0.1	0	4
+17	1	0.1	0	1
+33	2	0.1	0	2
+37	1	0.1	0	1
+44	1	0.1	0	1
+58	1	0.1	0	1
+60	1	0.1	0	1
+61	4	0.1	0	4
+62	7	0.1	0	7
+63	297	0.1	0	297
+64	120	0.1	0	120
+65	7	0.1	0	7
+66	4	0.1	0	4
+68	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCATCCAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05R16.fastq F05.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.51 s (7 µs/read; 8.17 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  69,584
+Reads with adapters:                    21,638 (31.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           47,946 (68.9%)
+Reads written (passing filters):        21,638 (31.1%)
+
+Total basepairs processed:    18,524,288 bp
+Total written (filtered):      5,030,478 bp (27.2%)
+
+=== Adapter 1 ===
+
+Sequence: GTCATCCAGA; Type: regular 3'; Length: 10; Trimmed: 21638 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 82.6%
+  G: 17.1%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	449	0.1	0	449
+11	8	0.1	0	8
+12	4	0.1	0	4
+13	4	0.1	0	4
+14	2	0.1	0	2
+15	4	0.1	0	4
+16	1	0.1	0	1
+17	6	0.1	0	6
+18	4	0.1	0	4
+19	5	0.1	0	5
+20	5	0.1	0	5
+21	6	0.1	0	6
+22	1	0.1	0	1
+23	5	0.1	0	5
+24	3	0.1	0	3
+25	5	0.1	0	5
+26	3	0.1	0	3
+27	7	0.1	0	7
+28	4	0.1	0	4
+29	4	0.1	0	4
+30	8	0.1	0	8
+31	8	0.1	0	8
+32	5	0.1	0	5
+33	7	0.1	0	7
+34	10	0.1	0	10
+35	7	0.1	0	7
+36	11	0.1	0	11
+37	9	0.1	0	9
+38	16	0.1	0	16
+39	1	0.1	0	1
+40	12	0.1	0	12
+41	9	0.1	0	9
+42	10	0.1	0	10
+43	9	0.1	0	9
+44	10	0.1	0	10
+45	11	0.1	0	11
+46	7	0.1	0	7
+47	5	0.1	0	5
+48	3	0.1	0	3
+49	8	0.1	0	8
+50	3	0.1	0	3
+51	14	0.1	0	14
+52	3	0.1	0	3
+53	8	0.1	0	8
+54	3	0.1	0	3
+56	1	0.1	0	1
+57	1	0.1	0	1
+58	2	0.1	0	2
+59	7	0.1	0	7
+60	17	0.1	0	17
+61	112	0.1	0	112
+62	1046	0.1	0	1046
+63	15972	0.1	0	15972
+64	2986	0.1	0	2986
+65	548	0.1	0	548
+66	125	0.1	0	125
+67	50	0.1	0	50
+68	19	0.1	0	19
+69	13	0.1	0	13
+70	3	0.1	0	3
+71	1	0.1	0	1
+72	2	0.1	0	2
+73	2	0.1	0	2
+81	1	0.1	0	1
+84	1	0.1	0	1
+106	1	0.1	0	1
+113	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACGAATAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05R17.fastq F05.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.48 s (7 µs/read; 8.68 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  69,584
+Reads with adapters:                     3,613 (5.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           65,971 (94.8%)
+Reads written (passing filters):         3,613 (5.2%)
+
+Total basepairs processed:    18,524,288 bp
+Total written (filtered):        840,328 bp (4.5%)
+
+=== Adapter 1 ===
+
+Sequence: GACGAATAGA; Type: regular 3'; Length: 10; Trimmed: 3613 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.3%
+  G: 0.2%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	81	0.1	0	81
+11	2	0.1	0	2
+12	2	0.1	0	2
+13	1	0.1	0	1
+14	1	0.1	0	1
+16	1	0.1	0	1
+26	1	0.1	0	1
+28	1	0.1	0	1
+30	1	0.1	0	1
+38	3	0.1	0	3
+41	1	0.1	0	1
+42	1	0.1	0	1
+44	1	0.1	0	1
+49	1	0.1	0	1
+53	1	0.1	0	1
+58	1	0.1	0	1
+59	1	0.1	0	1
+60	3	0.1	0	3
+61	25	0.1	0	25
+62	185	0.1	0	185
+63	3055	0.1	0	3055
+64	213	0.1	0	213
+65	21	0.1	0	21
+66	4	0.1	0	4
+67	3	0.1	0	3
+68	2	0.1	0	2
+100	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GCAATTGCCT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05R18.fastq F05.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.48 s (7 µs/read; 8.75 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  69,584
+Reads with adapters:                     3,545 (5.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           66,039 (94.9%)
+Reads written (passing filters):         3,545 (5.1%)
+
+Total basepairs processed:    18,524,288 bp
+Total written (filtered):        824,606 bp (4.5%)
+
+=== Adapter 1 ===
+
+Sequence: GCAATTGCCT; Type: regular 3'; Length: 10; Trimmed: 3545 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 99.5%
+  G: 0.2%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	167	0.1	0	167
+11	2	0.1	0	2
+13	2	0.1	0	2
+14	2	0.1	0	2
+17	2	0.1	0	2
+18	2	0.1	0	2
+22	1	0.1	0	1
+23	2	0.1	0	2
+25	2	0.1	0	2
+27	1	0.1	0	1
+28	1	0.1	0	1
+29	1	0.1	0	1
+32	1	0.1	0	1
+35	1	0.1	0	1
+36	1	0.1	0	1
+37	1	0.1	0	1
+38	2	0.1	0	2
+40	1	0.1	0	1
+41	1	0.1	0	1
+42	1	0.1	0	1
+43	1	0.1	0	1
+45	4	0.1	0	4
+48	2	0.1	0	2
+49	3	0.1	0	3
+50	1	0.1	0	1
+56	1	0.1	0	1
+58	1	0.1	0	1
+59	2	0.1	0	2
+60	8	0.1	0	8
+61	11	0.1	0	11
+62	117	0.1	0	117
+63	2587	0.1	0	2587
+64	484	0.1	0	484
+65	73	0.1	0	73
+66	31	0.1	0	31
+67	15	0.1	0	15
+68	7	0.1	0	7
+69	2	0.1	0	2
+73	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGACTAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05R19.fastq F05.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.49 s (7 µs/read; 8.54 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  69,584
+Reads with adapters:                     1,943 (2.8%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           67,641 (97.2%)
+Reads written (passing filters):         1,943 (2.8%)
+
+Total basepairs processed:    18,524,288 bp
+Total written (filtered):        452,226 bp (2.4%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGACTAA; Type: regular 3'; Length: 10; Trimmed: 1943 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.0%
+  G: 0.8%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	243	0.1	0	243
+11	24	0.1	0	24
+12	1	0.1	0	1
+20	1	0.1	0	1
+23	1	0.1	0	1
+25	1	0.1	0	1
+32	2	0.1	0	2
+36	2	0.1	0	2
+37	2	0.1	0	2
+38	2	0.1	0	2
+39	1	0.1	0	1
+43	1	0.1	0	1
+53	1	0.1	0	1
+59	1	0.1	0	1
+60	2	0.1	0	2
+61	8	0.1	0	8
+62	62	0.1	0	62
+63	1163	0.1	0	1163
+64	263	0.1	0	263
+65	84	0.1	0	84
+66	49	0.1	0	49
+67	19	0.1	0	19
+68	4	0.1	0	4
+69	2	0.1	0	2
+73	1	0.1	0	1
+76	1	0.1	0	1
+80	1	0.1	0	1
+81	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATGGATCTG --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05R20.fastq F05.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.48 s (7 µs/read; 8.68 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  69,584
+Reads with adapters:                     1,599 (2.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           67,985 (97.7%)
+Reads written (passing filters):         1,599 (2.3%)
+
+Total basepairs processed:    18,524,288 bp
+Total written (filtered):        371,779 bp (2.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATGGATCTG; Type: regular 3'; Length: 10; Trimmed: 1599 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 98.4%
+  G: 0.8%
+  T: 0.8%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	13	0.1	0	13
+22	1	0.1	0	1
+23	1	0.1	0	1
+27	2	0.1	0	2
+30	1	0.1	0	1
+38	1	0.1	0	1
+46	1	0.1	0	1
+51	1	0.1	0	1
+56	1	0.1	0	1
+60	1	0.1	0	1
+61	19	0.1	0	19
+62	208	0.1	0	208
+63	1192	0.1	0	1192
+64	138	0.1	0	138
+65	14	0.1	0	14
+66	3	0.1	0	3
+70	1	0.1	0	1
+80	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATTCGAGGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01R11.fastq F01.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.38 s (44 µs/read; 1.37 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   8,620
+Reads with adapters:                     5,432 (63.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:            3,188 (37.0%)
+Reads written (passing filters):         5,432 (63.0%)
+
+Total basepairs processed:     2,229,749 bp
+Total written (filtered):      1,270,919 bp (57.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATTCGAGGA; Type: regular 3'; Length: 10; Trimmed: 5432 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 9.8%
+  G: 89.5%
+  T: 0.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'G' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	23	0.0	0	23
+11	13	0.0	0	13
+12	11	0.0	0	11
+13	17	0.0	0	17
+14	18	0.0	0	18
+15	20	0.0	0	20
+16	14	0.0	0	14
+17	9	0.0	0	9
+18	17	0.0	0	17
+19	13	0.0	0	13
+20	31	0.0	0	31
+21	23	0.0	0	23
+22	11	0.0	0	11
+23	7	0.0	0	7
+24	3	0.0	0	3
+25	21	0.0	0	21
+26	14	0.0	0	14
+27	17	0.0	0	17
+28	27	0.0	0	27
+29	24	0.0	0	24
+30	40	0.0	0	40
+31	8	0.0	0	8
+32	36	0.0	0	36
+33	40	0.0	0	40
+34	31	0.0	0	31
+35	33	0.0	0	33
+36	40	0.0	0	40
+37	27	0.0	0	27
+38	19	0.0	0	19
+39	3	0.0	0	3
+40	2	0.0	0	2
+41	5	0.0	0	5
+42	1	0.0	0	1
+43	4	0.0	0	4
+44	1	0.0	0	1
+45	3	0.0	0	3
+46	2	0.0	0	2
+47	2	0.0	0	2
+48	2	0.0	0	2
+49	3	0.0	0	3
+51	3	0.0	0	3
+52	1	0.0	0	1
+53	4	0.0	0	4
+55	1	0.0	0	1
+56	1	0.0	0	1
+57	2	0.0	0	2
+58	2	0.0	0	2
+60	3	0.0	0	3
+61	9	0.0	0	9
+62	99	0.0	0	99
+63	1993	0.0	0	1993
+64	1995	0.0	0	1995
+65	538	0.0	0	538
+66	108	0.0	0	108
+67	27	0.0	0	27
+68	5	0.0	0	5
+70	1	0.0	0	1
+71	2	0.0	0	2
+72	1	0.0	0	1
+73	1	0.0	0	1
+76	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GAACCACCTA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01R12.fastq F01.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.37 s (43 µs/read; 1.41 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   8,620
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:            8,620 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:     2,229,749 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GAACCACCTA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGTTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01R13.fastq F01.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.33 s (39 µs/read; 1.56 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   8,620
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:            8,620 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:     2,229,749 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGTTAGA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACACTCCAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01R14.fastq F01.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.34 s (39 µs/read; 1.53 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   8,620
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:            8,620 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:     2,229,749 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GACACTCCAA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACCTCTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01R15.fastq F01.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.33 s (39 µs/read; 1.55 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   8,620
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:            8,620 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:     2,229,749 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GACCTCTAGA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCATCCAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01R16.fastq F01.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.33 s (39 µs/read; 1.56 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   8,620
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:            8,620 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:     2,229,749 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GTCATCCAGA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACGAATAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01R17.fastq F01.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.33 s (38 µs/read; 1.57 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   8,620
+Reads with adapters:                         1 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:            8,619 (100.0%)
+Reads written (passing filters):             1 (0.0%)
+
+Total basepairs processed:     2,229,749 bp
+Total written (filtered):            233 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GACGAATAGA; Type: regular 3'; Length: 10; Trimmed: 1 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+68	1	0.0	0	1
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GCAATTGCCT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01R18.fastq F01.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.32 s (37 µs/read; 1.63 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   8,620
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:            8,620 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:     2,229,749 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GCAATTGCCT; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGACTAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01R19.fastq F01.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.32 s (37 µs/read; 1.60 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   8,620
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:            8,620 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:     2,229,749 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGACTAA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATGGATCTG --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01R20.fastq F01.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.33 s (39 µs/read; 1.54 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   8,620
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:            8,620 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:     2,229,749 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATGGATCTG; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATTCGAGGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03R11.fastq F03.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.44 s (8 µs/read; 7.20 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,350
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           53,350 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:    13,990,420 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATTCGAGGA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GAACCACCTA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03R12.fastq F03.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.44 s (8 µs/read; 7.35 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,350
+Reads with adapters:                     5,359 (10.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           47,991 (90.0%)
+Reads written (passing filters):         5,359 (10.0%)
+
+Total basepairs processed:    13,990,420 bp
+Total written (filtered):      1,245,889 bp (8.9%)
+
+=== Adapter 1 ===
+
+Sequence: GAACCACCTA; Type: regular 3'; Length: 10; Trimmed: 5359 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.8%
+  G: 0.9%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	574	0.1	0	574
+11	1	0.1	0	1
+12	1	0.1	0	1
+13	1	0.1	0	1
+14	1	0.1	0	1
+24	1	0.1	0	1
+33	1	0.1	0	1
+38	3	0.1	0	3
+40	1	0.1	0	1
+42	2	0.1	0	2
+43	2	0.1	0	2
+45	2	0.1	0	2
+51	2	0.1	0	2
+58	1	0.1	0	1
+59	3	0.1	0	3
+61	20	0.1	0	20
+62	152	0.1	0	152
+63	4140	0.1	0	4140
+64	384	0.1	0	384
+65	48	0.1	0	48
+66	6	0.1	0	6
+67	9	0.1	0	9
+68	2	0.1	0	2
+76	1	0.1	0	1
+102	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGTTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03R13.fastq F03.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.45 s (8 µs/read; 7.12 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,350
+Reads with adapters:                     3,052 (5.7%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           50,298 (94.3%)
+Reads written (passing filters):         3,052 (5.7%)
+
+Total basepairs processed:    13,990,420 bp
+Total written (filtered):        710,232 bp (5.1%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGTTAGA; Type: regular 3'; Length: 10; Trimmed: 3052 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 93.3%
+  G: 6.1%
+  T: 0.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	527	0.1	0	527
+11	4	0.1	0	4
+12	1	0.1	0	1
+13	2	0.1	0	2
+15	1	0.1	0	1
+17	3	0.1	0	3
+21	3	0.1	0	3
+22	1	0.1	0	1
+23	1	0.1	0	1
+24	3	0.1	0	3
+25	3	0.1	0	3
+27	1	0.1	0	1
+28	2	0.1	0	2
+29	4	0.1	0	4
+30	2	0.1	0	2
+31	1	0.1	0	1
+32	6	0.1	0	6
+33	2	0.1	0	2
+34	2	0.1	0	2
+36	1	0.1	0	1
+38	1	0.1	0	1
+39	2	0.1	0	2
+40	2	0.1	0	2
+41	1	0.1	0	1
+43	2	0.1	0	2
+44	3	0.1	0	3
+45	2	0.1	0	2
+46	2	0.1	0	2
+47	1	0.1	0	1
+48	1	0.1	0	1
+50	1	0.1	0	1
+52	3	0.1	0	3
+57	1	0.1	0	1
+60	4	0.1	0	4
+61	29	0.1	0	29
+62	170	0.1	0	170
+63	1970	0.1	0	1970
+64	210	0.1	0	210
+65	44	0.1	0	44
+66	17	0.1	0	17
+67	8	0.1	0	8
+68	3	0.1	0	3
+69	4	0.1	0	4
+71	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACACTCCAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03R14.fastq F03.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.46 s (9 µs/read; 6.96 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,350
+Reads with adapters:                     5,480 (10.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           47,870 (89.7%)
+Reads written (passing filters):         5,480 (10.3%)
+
+Total basepairs processed:    13,990,420 bp
+Total written (filtered):      1,272,612 bp (9.1%)
+
+=== Adapter 1 ===
+
+Sequence: GACACTCCAA; Type: regular 3'; Length: 10; Trimmed: 5480 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 99.3%
+  G: 0.3%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	198	0.1	0	198
+11	11	0.1	0	11
+14	4	0.1	0	4
+15	2	0.1	0	2
+16	1	0.1	0	1
+17	1	0.1	0	1
+18	1	0.1	0	1
+20	1	0.1	0	1
+22	1	0.1	0	1
+23	1	0.1	0	1
+25	2	0.1	0	2
+26	1	0.1	0	1
+28	1	0.1	0	1
+32	1	0.1	0	1
+33	1	0.1	0	1
+34	1	0.1	0	1
+37	2	0.1	0	2
+38	1	0.1	0	1
+43	2	0.1	0	2
+44	1	0.1	0	1
+45	1	0.1	0	1
+46	1	0.1	0	1
+51	3	0.1	0	3
+53	3	0.1	0	3
+56	2	0.1	0	2
+57	1	0.1	0	1
+58	6	0.1	0	6
+59	1	0.1	0	1
+60	5	0.1	0	5
+61	32	0.1	0	32
+62	204	0.1	0	204
+63	4605	0.1	0	4605
+64	306	0.1	0	306
+65	59	0.1	0	59
+66	10	0.1	0	10
+67	3	0.1	0	3
+68	1	0.1	0	1
+69	1	0.1	0	1
+70	1	0.1	0	1
+74	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACCTCTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03R15.fastq F03.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.46 s (9 µs/read; 6.93 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,350
+Reads with adapters:                     3,727 (7.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           49,623 (93.0%)
+Reads written (passing filters):         3,727 (7.0%)
+
+Total basepairs processed:    13,990,420 bp
+Total written (filtered):        868,670 bp (6.2%)
+
+=== Adapter 1 ===
+
+Sequence: GACCTCTAGA; Type: regular 3'; Length: 10; Trimmed: 3727 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 97.2%
+  G: 2.5%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1168	0.1	0	1168
+11	4	0.1	0	4
+12	2	0.1	0	2
+13	1	0.1	0	1
+14	1	0.1	0	1
+17	1	0.1	0	1
+20	1	0.1	0	1
+23	1	0.1	0	1
+24	1	0.1	0	1
+28	1	0.1	0	1
+33	1	0.1	0	1
+36	1	0.1	0	1
+37	2	0.1	0	2
+41	1	0.1	0	1
+42	1	0.1	0	1
+44	1	0.1	0	1
+46	1	0.1	0	1
+48	2	0.1	0	2
+49	1	0.1	0	1
+50	2	0.1	0	2
+51	1	0.1	0	1
+53	2	0.1	0	2
+55	1	0.1	0	1
+56	1	0.1	0	1
+60	2	0.1	0	2
+61	13	0.1	0	13
+62	72	0.1	0	72
+63	2037	0.1	0	2037
+64	303	0.1	0	303
+65	57	0.1	0	57
+66	27	0.1	0	27
+67	6	0.1	0	6
+68	5	0.1	0	5
+69	3	0.1	0	3
+70	1	0.1	0	1
+71	2	0.1	0	2
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCATCCAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03R16.fastq F03.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.46 s (9 µs/read; 6.92 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,350
+Reads with adapters:                     5,075 (9.5%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           48,275 (90.5%)
+Reads written (passing filters):         5,075 (9.5%)
+
+Total basepairs processed:    13,990,420 bp
+Total written (filtered):      1,176,084 bp (8.4%)
+
+=== Adapter 1 ===
+
+Sequence: GTCATCCAGA; Type: regular 3'; Length: 10; Trimmed: 5075 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.8%
+  C: 90.2%
+  G: 8.4%
+  T: 0.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	2323	0.1	0	2323
+11	1	0.1	0	1
+12	2	0.1	0	2
+14	1	0.1	0	1
+15	2	0.1	0	2
+18	2	0.1	0	2
+19	1	0.1	0	1
+20	1	0.1	0	1
+21	1	0.1	0	1
+22	1	0.1	0	1
+23	1	0.1	0	1
+25	1	0.1	0	1
+29	1	0.1	0	1
+30	1	0.1	0	1
+32	1	0.1	0	1
+35	2	0.1	0	2
+36	1	0.1	0	1
+37	1	0.1	0	1
+38	3	0.1	0	3
+39	2	0.1	0	2
+42	1	0.1	0	1
+43	2	0.1	0	2
+45	1	0.1	0	1
+47	1	0.1	0	1
+48	2	0.1	0	2
+49	1	0.1	0	1
+50	1	0.1	0	1
+51	1	0.1	0	1
+52	1	0.1	0	1
+54	1	0.1	0	1
+58	2	0.1	0	2
+59	1	0.1	0	1
+60	4	0.1	0	4
+61	23	0.1	0	23
+62	153	0.1	0	153
+63	2221	0.1	0	2221
+64	219	0.1	0	219
+65	52	0.1	0	52
+66	9	0.1	0	9
+67	1	0.1	0	1
+68	2	0.1	0	2
+70	1	0.1	0	1
+71	1	0.1	0	1
+78	1	0.1	0	1
+122	1	0.1	0	1
+123	1	0.1	0	1
+131	1	0.1	0	1
+137	2	0.1	0	2
+138	2	0.1	0	2
+139	7	0.1	0	7
+141	1	0.1	0	1
+142	1	0.1	0	1
+191	3	0.1	0	3
+192	1	0.1	0	1
+193	3	0.1	0	3
+195	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACGAATAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03R17.fastq F03.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.45 s (8 µs/read; 7.09 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,350
+Reads with adapters:                     7,233 (13.6%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           46,117 (86.4%)
+Reads written (passing filters):         7,233 (13.6%)
+
+Total basepairs processed:    13,990,420 bp
+Total written (filtered):      1,688,550 bp (12.1%)
+
+=== Adapter 1 ===
+
+Sequence: GACGAATAGA; Type: regular 3'; Length: 10; Trimmed: 7233 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.4%
+  C: 97.1%
+  G: 1.9%
+  T: 0.7%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	517	0.1	0	517
+11	2	0.1	0	2
+12	1	0.1	0	1
+13	2	0.1	0	2
+14	2	0.1	0	2
+15	1	0.1	0	1
+17	3	0.1	0	3
+19	1	0.1	0	1
+21	2	0.1	0	2
+22	1	0.1	0	1
+23	1	0.1	0	1
+24	2	0.1	0	2
+25	2	0.1	0	2
+26	1	0.1	0	1
+28	1	0.1	0	1
+29	3	0.1	0	3
+31	3	0.1	0	3
+32	2	0.1	0	2
+33	1	0.1	0	1
+34	2	0.1	0	2
+35	2	0.1	0	2
+36	1	0.1	0	1
+37	1	0.1	0	1
+38	3	0.1	0	3
+40	1	0.1	0	1
+41	3	0.1	0	3
+42	5	0.1	0	5
+45	2	0.1	0	2
+48	2	0.1	0	2
+50	1	0.1	0	1
+51	4	0.1	0	4
+52	2	0.1	0	2
+55	1	0.1	0	1
+57	1	0.1	0	1
+58	9	0.1	0	9
+59	3	0.1	0	3
+60	10	0.1	0	10
+61	37	0.1	0	37
+62	209	0.1	0	209
+63	5826	0.1	0	5826
+64	429	0.1	0	429
+65	89	0.1	0	89
+66	26	0.1	0	26
+67	7	0.1	0	7
+68	4	0.1	0	4
+69	3	0.1	0	3
+71	1	0.1	0	1
+72	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GCAATTGCCT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03R18.fastq F03.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.44 s (8 µs/read; 7.24 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,350
+Reads with adapters:                     4,846 (9.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           48,504 (90.9%)
+Reads written (passing filters):         4,846 (9.1%)
+
+Total basepairs processed:    13,990,420 bp
+Total written (filtered):      1,128,354 bp (8.1%)
+
+=== Adapter 1 ===
+
+Sequence: GCAATTGCCT; Type: regular 3'; Length: 10; Trimmed: 4846 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.3%
+  C: 97.8%
+  G: 1.7%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	2912	0.1	0	2912
+11	4	0.1	0	4
+13	3	0.1	0	3
+14	1	0.1	0	1
+17	1	0.1	0	1
+18	1	0.1	0	1
+25	1	0.1	0	1
+26	1	0.1	0	1
+28	1	0.1	0	1
+30	2	0.1	0	2
+32	2	0.1	0	2
+33	1	0.1	0	1
+34	1	0.1	0	1
+37	2	0.1	0	2
+40	1	0.1	0	1
+41	1	0.1	0	1
+45	4	0.1	0	4
+46	1	0.1	0	1
+47	3	0.1	0	3
+48	1	0.1	0	1
+49	3	0.1	0	3
+50	1	0.1	0	1
+52	1	0.1	0	1
+59	1	0.1	0	1
+60	2	0.1	0	2
+61	5	0.1	0	5
+62	63	0.1	0	63
+63	1467	0.1	0	1467
+64	254	0.1	0	254
+65	60	0.1	0	60
+66	19	0.1	0	19
+67	12	0.1	0	12
+68	3	0.1	0	3
+69	3	0.1	0	3
+70	4	0.1	0	4
+71	1	0.1	0	1
+72	1	0.1	0	1
+73	1	0.1	0	1
+77	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGACTAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03R19.fastq F03.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.44 s (8 µs/read; 7.27 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,350
+Reads with adapters:                     2,582 (4.8%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           50,768 (95.2%)
+Reads written (passing filters):         2,582 (4.8%)
+
+Total basepairs processed:    13,990,420 bp
+Total written (filtered):        603,767 bp (4.3%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGACTAA; Type: regular 3'; Length: 10; Trimmed: 2582 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.1%
+  G: 0.5%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	593	0.1	0	593
+11	51	0.1	0	51
+15	4	0.1	0	4
+17	2	0.1	0	2
+21	2	0.1	0	2
+24	1	0.1	0	1
+25	2	0.1	0	2
+27	2	0.1	0	2
+28	2	0.1	0	2
+31	1	0.1	0	1
+34	1	0.1	0	1
+38	1	0.1	0	1
+39	2	0.1	0	2
+40	2	0.1	0	2
+41	2	0.1	0	2
+42	2	0.1	0	2
+43	1	0.1	0	1
+51	1	0.1	0	1
+52	3	0.1	0	3
+58	1	0.1	0	1
+60	1	0.1	0	1
+61	14	0.1	0	14
+62	81	0.1	0	81
+63	1477	0.1	0	1477
+64	234	0.1	0	234
+65	61	0.1	0	61
+66	17	0.1	0	17
+67	11	0.1	0	11
+68	4	0.1	0	4
+69	1	0.1	0	1
+70	1	0.1	0	1
+71	1	0.1	0	1
+72	2	0.1	0	2
+73	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATGGATCTG --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03R20.fastq F03.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.45 s (8 µs/read; 7.17 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,350
+Reads with adapters:                     2,290 (4.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           51,060 (95.7%)
+Reads written (passing filters):         2,290 (4.3%)
+
+Total basepairs processed:    13,990,420 bp
+Total written (filtered):        532,257 bp (3.8%)
+
+=== Adapter 1 ===
+
+Sequence: GATGGATCTG; Type: regular 3'; Length: 10; Trimmed: 2290 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 97.1%
+  G: 1.8%
+  T: 1.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	43	0.1	0	43
+11	1	0.1	0	1
+12	1	0.1	0	1
+13	2	0.1	0	2
+14	1	0.1	0	1
+23	1	0.1	0	1
+24	1	0.1	0	1
+25	1	0.1	0	1
+26	1	0.1	0	1
+32	2	0.1	0	2
+33	1	0.1	0	1
+35	1	0.1	0	1
+36	2	0.1	0	2
+38	1	0.1	0	1
+39	1	0.1	0	1
+42	1	0.1	0	1
+45	2	0.1	0	2
+48	3	0.1	0	3
+50	3	0.1	0	3
+57	1	0.1	0	1
+58	1	0.1	0	1
+60	2	0.1	0	2
+61	35	0.1	0	35
+62	284	0.1	0	284
+63	1739	0.1	0	1739
+64	124	0.1	0	124
+65	20	0.1	0	20
+66	5	0.1	0	5
+67	5	0.1	0	5
+68	3	0.1	0	3
+69	1	0.1	0	1
+73	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATTCGAGGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04R11.fastq F04.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.42 s (10 µs/read; 5.83 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  40,590
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           40,590 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:    10,938,226 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATTCGAGGA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GAACCACCTA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04R12.fastq F04.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.42 s (10 µs/read; 5.85 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  40,590
+Reads with adapters:                     5,007 (12.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           35,583 (87.7%)
+Reads written (passing filters):         5,007 (12.3%)
+
+Total basepairs processed:    10,938,226 bp
+Total written (filtered):      1,168,188 bp (10.7%)
+
+=== Adapter 1 ===
+
+Sequence: GAACCACCTA; Type: regular 3'; Length: 10; Trimmed: 5007 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 98.2%
+  G: 1.3%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	237	0.0	0	237
+11	1	0.0	0	1
+12	1	0.0	0	1
+13	1	0.0	0	1
+14	2	0.0	0	2
+16	2	0.0	0	2
+17	1	0.0	0	1
+18	2	0.0	0	2
+19	3	0.0	0	3
+20	3	0.0	0	3
+21	7	0.0	0	7
+22	3	0.0	0	3
+23	3	0.0	0	3
+24	2	0.0	0	2
+25	2	0.0	0	2
+26	2	0.0	0	2
+27	1	0.0	0	1
+28	1	0.0	0	1
+29	5	0.0	0	5
+30	1	0.0	0	1
+32	7	0.0	0	7
+33	7	0.0	0	7
+34	6	0.0	0	6
+35	6	0.0	0	6
+36	4	0.0	0	4
+37	7	0.0	0	7
+38	8	0.0	0	8
+39	8	0.0	0	8
+41	9	0.0	0	9
+42	1	0.0	0	1
+43	3	0.0	0	3
+44	4	0.0	0	4
+45	6	0.0	0	6
+46	3	0.0	0	3
+47	3	0.0	0	3
+48	2	0.0	0	2
+49	1	0.0	0	1
+50	2	0.0	0	2
+51	10	0.0	0	10
+52	2	0.0	0	2
+53	1	0.0	0	1
+60	6	0.0	0	6
+61	28	0.0	0	28
+62	185	0.0	0	185
+63	3144	0.0	0	3144
+64	844	0.0	0	844
+65	260	0.0	0	260
+66	107	0.0	0	107
+67	34	0.0	0	34
+68	5	0.0	0	5
+69	7	0.0	0	7
+70	1	0.0	0	1
+71	1	0.0	0	1
+72	1	0.0	0	1
+88	1	0.0	0	1
+194	2	0.0	0	2
+275	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGTTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04R13.fastq F04.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.42 s (10 µs/read; 5.83 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  40,590
+Reads with adapters:                     5,321 (13.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           35,269 (86.9%)
+Reads written (passing filters):         5,321 (13.1%)
+
+Total basepairs processed:    10,938,226 bp
+Total written (filtered):      1,240,337 bp (11.3%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGTTAGA; Type: regular 3'; Length: 10; Trimmed: 5321 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.2%
+  C: 96.9%
+  G: 2.5%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	2033	0.0	0	2033
+11	5	0.0	0	5
+12	1	0.0	0	1
+13	3	0.0	0	3
+14	1	0.0	0	1
+15	1	0.0	0	1
+21	1	0.0	0	1
+23	2	0.0	0	2
+24	1	0.0	0	1
+25	1	0.0	0	1
+26	3	0.0	0	3
+27	2	0.0	0	2
+29	1	0.0	0	1
+31	1	0.0	0	1
+32	1	0.0	0	1
+33	2	0.0	0	2
+34	2	0.0	0	2
+38	3	0.0	0	3
+39	1	0.0	0	1
+42	1	0.0	0	1
+43	1	0.0	0	1
+44	4	0.0	0	4
+45	1	0.0	0	1
+46	1	0.0	0	1
+47	1	0.0	0	1
+48	1	0.0	0	1
+49	6	0.0	0	6
+50	4	0.0	0	4
+52	1	0.0	0	1
+53	5	0.0	0	5
+55	1	0.0	0	1
+56	1	0.0	0	1
+58	1	0.0	0	1
+59	3	0.0	0	3
+60	3	0.0	0	3
+61	22	0.0	0	22
+62	168	0.0	0	168
+63	2620	0.0	0	2620
+64	321	0.0	0	321
+65	54	0.0	0	54
+66	18	0.0	0	18
+67	5	0.0	0	5
+68	10	0.0	0	10
+69	2	0.0	0	2
+70	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACACTCCAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04R14.fastq F04.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.42 s (10 µs/read; 5.78 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  40,590
+Reads with adapters:                     4,259 (10.5%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           36,331 (89.5%)
+Reads written (passing filters):         4,259 (10.5%)
+
+Total basepairs processed:    10,938,226 bp
+Total written (filtered):        991,217 bp (9.1%)
+
+=== Adapter 1 ===
+
+Sequence: GACACTCCAA; Type: regular 3'; Length: 10; Trimmed: 4259 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.2%
+  C: 99.0%
+  G: 0.1%
+  T: 0.7%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	323	0.0	0	323
+11	15	0.0	0	15
+12	1	0.0	0	1
+13	2	0.0	0	2
+14	3	0.0	0	3
+15	2	0.0	0	2
+17	3	0.0	0	3
+18	1	0.0	0	1
+19	1	0.0	0	1
+20	2	0.0	0	2
+25	2	0.0	0	2
+28	1	0.0	0	1
+29	1	0.0	0	1
+31	1	0.0	0	1
+33	4	0.0	0	4
+34	1	0.0	0	1
+37	1	0.0	0	1
+38	4	0.0	0	4
+39	1	0.0	0	1
+42	1	0.0	0	1
+43	1	0.0	0	1
+44	1	0.0	0	1
+45	2	0.0	0	2
+46	2	0.0	0	2
+47	1	0.0	0	1
+48	2	0.0	0	2
+50	1	0.0	0	1
+51	2	0.0	0	2
+52	2	0.0	0	2
+54	1	0.0	0	1
+58	2	0.0	0	2
+60	3	0.0	0	3
+61	20	0.0	0	20
+62	255	0.0	0	255
+63	3136	0.0	0	3136
+64	347	0.0	0	347
+65	67	0.0	0	67
+66	26	0.0	0	26
+67	10	0.0	0	10
+68	5	0.0	0	5
+69	2	0.0	0	2
+73	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACCTCTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04R15.fastq F04.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.43 s (10 µs/read; 5.73 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  40,590
+Reads with adapters:                     4,953 (12.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           35,637 (87.8%)
+Reads written (passing filters):         4,953 (12.2%)
+
+Total basepairs processed:    10,938,226 bp
+Total written (filtered):      1,152,224 bp (10.5%)
+
+=== Adapter 1 ===
+
+Sequence: GACCTCTAGA; Type: regular 3'; Length: 10; Trimmed: 4953 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.5%
+  G: 0.1%
+  T: 0.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1178	0.0	0	1178
+11	4	0.0	0	4
+13	1	0.0	0	1
+14	1	0.0	0	1
+18	1	0.0	0	1
+20	1	0.0	0	1
+21	1	0.0	0	1
+23	1	0.0	0	1
+25	2	0.0	0	2
+28	2	0.0	0	2
+29	1	0.0	0	1
+30	2	0.0	0	2
+31	1	0.0	0	1
+32	2	0.0	0	2
+35	1	0.0	0	1
+38	1	0.0	0	1
+40	1	0.0	0	1
+42	1	0.0	0	1
+44	1	0.0	0	1
+46	2	0.0	0	2
+47	1	0.0	0	1
+48	1	0.0	0	1
+50	1	0.0	0	1
+52	2	0.0	0	2
+53	2	0.0	0	2
+54	1	0.0	0	1
+59	2	0.0	0	2
+60	3	0.0	0	3
+61	31	0.0	0	31
+62	230	0.0	0	230
+63	2794	0.0	0	2794
+64	544	0.0	0	544
+65	94	0.0	0	94
+66	24	0.0	0	24
+67	7	0.0	0	7
+68	4	0.0	0	4
+69	3	0.0	0	3
+70	1	0.0	0	1
+71	1	0.0	0	1
+75	1	0.0	0	1
+77	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCATCCAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04R16.fastq F04.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.43 s (11 µs/read; 5.71 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  40,590
+Reads with adapters:                     5,536 (13.6%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           35,054 (86.4%)
+Reads written (passing filters):         5,536 (13.6%)
+
+Total basepairs processed:    10,938,226 bp
+Total written (filtered):      1,288,613 bp (11.8%)
+
+=== Adapter 1 ===
+
+Sequence: GTCATCCAGA; Type: regular 3'; Length: 10; Trimmed: 5536 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 75.8%
+  G: 23.9%
+  T: 0.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	113	0.0	0	113
+11	6	0.0	0	6
+12	2	0.0	0	2
+13	3	0.0	0	3
+17	1	0.0	0	1
+18	1	0.0	0	1
+19	1	0.0	0	1
+21	2	0.0	0	2
+23	3	0.0	0	3
+24	3	0.0	0	3
+25	2	0.0	0	2
+27	2	0.0	0	2
+28	1	0.0	0	1
+30	2	0.0	0	2
+31	2	0.0	0	2
+32	1	0.0	0	1
+33	1	0.0	0	1
+34	7	0.0	0	7
+35	5	0.0	0	5
+36	4	0.0	0	4
+37	1	0.0	0	1
+38	4	0.0	0	4
+39	4	0.0	0	4
+40	4	0.0	0	4
+41	4	0.0	0	4
+42	3	0.0	0	3
+43	8	0.0	0	8
+44	8	0.0	0	8
+45	11	0.0	0	11
+46	5	0.0	0	5
+47	6	0.0	0	6
+48	4	0.0	0	4
+49	2	0.0	0	2
+50	1	0.0	0	1
+51	1	0.0	0	1
+52	2	0.0	0	2
+53	1	0.0	0	1
+56	1	0.0	0	1
+57	1	0.0	0	1
+58	1	0.0	0	1
+59	2	0.0	0	2
+60	8	0.0	0	8
+61	25	0.0	0	25
+62	267	0.0	0	267
+63	3682	0.0	0	3682
+64	993	0.0	0	993
+65	250	0.0	0	250
+66	41	0.0	0	41
+67	17	0.0	0	17
+68	9	0.0	0	9
+69	3	0.0	0	3
+70	1	0.0	0	1
+72	1	0.0	0	1
+77	1	0.0	0	1
+80	1	0.0	0	1
+90	1	0.0	0	1
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACGAATAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04R17.fastq F04.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.42 s (10 µs/read; 5.84 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  40,590
+Reads with adapters:                     2,166 (5.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           38,424 (94.7%)
+Reads written (passing filters):         2,166 (5.3%)
+
+Total basepairs processed:    10,938,226 bp
+Total written (filtered):        504,064 bp (4.6%)
+
+=== Adapter 1 ===
+
+Sequence: GACGAATAGA; Type: regular 3'; Length: 10; Trimmed: 2166 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.1%
+  G: 0.4%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	28	0.0	0	28
+19	1	0.0	0	1
+20	1	0.0	0	1
+23	1	0.0	0	1
+32	1	0.0	0	1
+33	2	0.0	0	2
+34	1	0.0	0	1
+38	1	0.0	0	1
+39	1	0.0	0	1
+42	1	0.0	0	1
+43	1	0.0	0	1
+44	1	0.0	0	1
+45	1	0.0	0	1
+46	1	0.0	0	1
+50	1	0.0	0	1
+51	2	0.0	0	2
+60	2	0.0	0	2
+61	12	0.0	0	12
+62	117	0.0	0	117
+63	1808	0.0	0	1808
+64	155	0.0	0	155
+65	21	0.0	0	21
+66	2	0.0	0	2
+67	1	0.0	0	1
+72	1	0.0	0	1
+73	1	0.0	0	1
+114	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GCAATTGCCT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04R18.fastq F04.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.41 s (10 µs/read; 6.01 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  40,590
+Reads with adapters:                     3,172 (7.8%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           37,418 (92.2%)
+Reads written (passing filters):         3,172 (7.8%)
+
+Total basepairs processed:    10,938,226 bp
+Total written (filtered):        738,335 bp (6.8%)
+
+=== Adapter 1 ===
+
+Sequence: GCAATTGCCT; Type: regular 3'; Length: 10; Trimmed: 3172 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.7%
+  G: 0.1%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	166	0.0	0	166
+11	2	0.0	0	2
+13	2	0.0	0	2
+14	3	0.0	0	3
+15	2	0.0	0	2
+16	1	0.0	0	1
+17	3	0.0	0	3
+18	2	0.0	0	2
+20	1	0.0	0	1
+26	1	0.0	0	1
+29	3	0.0	0	3
+32	1	0.0	0	1
+33	1	0.0	0	1
+40	2	0.0	0	2
+41	2	0.0	0	2
+42	1	0.0	0	1
+43	2	0.0	0	2
+44	3	0.0	0	3
+45	2	0.0	0	2
+47	1	0.0	0	1
+49	3	0.0	0	3
+53	2	0.0	0	2
+54	1	0.0	0	1
+55	2	0.0	0	2
+56	1	0.0	0	1
+59	1	0.0	0	1
+60	1	0.0	0	1
+61	18	0.0	0	18
+62	112	0.0	0	112
+63	2384	0.0	0	2384
+64	318	0.0	0	318
+65	77	0.0	0	77
+66	25	0.0	0	25
+67	13	0.0	0	13
+68	4	0.0	0	4
+69	4	0.0	0	4
+71	1	0.0	0	1
+72	1	0.0	0	1
+73	1	0.0	0	1
+83	1	0.0	0	1
+102	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGACTAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04R19.fastq F04.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.41 s (10 µs/read; 5.99 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  40,590
+Reads with adapters:                     2,100 (5.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           38,490 (94.8%)
+Reads written (passing filters):         2,100 (5.2%)
+
+Total basepairs processed:    10,938,226 bp
+Total written (filtered):        489,189 bp (4.5%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGACTAA; Type: regular 3'; Length: 10; Trimmed: 2100 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 97.7%
+  G: 1.8%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	94	0.0	0	94
+11	9	0.0	0	9
+15	1	0.0	0	1
+21	2	0.0	0	2
+22	1	0.0	0	1
+25	1	0.0	0	1
+26	1	0.0	0	1
+27	1	0.0	0	1
+32	2	0.0	0	2
+33	1	0.0	0	1
+35	1	0.0	0	1
+36	1	0.0	0	1
+37	1	0.0	0	1
+38	2	0.0	0	2
+42	1	0.0	0	1
+44	2	0.0	0	2
+46	1	0.0	0	1
+51	1	0.0	0	1
+52	1	0.0	0	1
+58	2	0.0	0	2
+59	2	0.0	0	2
+60	2	0.0	0	2
+61	14	0.0	0	14
+62	85	0.0	0	85
+63	1584	0.0	0	1584
+64	212	0.0	0	212
+65	60	0.0	0	60
+66	10	0.0	0	10
+67	3	0.0	0	3
+72	1	0.0	0	1
+88	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATGGATCTG --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04R20.fastq F04.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.40 s (10 µs/read; 6.10 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  40,590
+Reads with adapters:                         1 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           40,589 (100.0%)
+Reads written (passing filters):             1 (0.0%)
+
+Total basepairs processed:    10,938,226 bp
+Total written (filtered):            236 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATGGATCTG; Type: regular 3'; Length: 10; Trimmed: 1 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+63	1	0.0	0	1
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATTCGAGGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06R11.fastq F06.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.42 s (11 µs/read; 5.24 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  36,359
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           36,359 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:     9,668,141 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATTCGAGGA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GAACCACCTA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06R12.fastq F06.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.42 s (11 µs/read; 5.22 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  36,359
+Reads with adapters:                     2,104 (5.8%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           34,255 (94.2%)
+Reads written (passing filters):         2,104 (5.8%)
+
+Total basepairs processed:     9,668,141 bp
+Total written (filtered):        489,425 bp (5.1%)
+
+=== Adapter 1 ===
+
+Sequence: GAACCACCTA; Type: regular 3'; Length: 10; Trimmed: 2104 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.6%
+  G: 0.1%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	87	0.0	0	87
+11	2	0.0	0	2
+15	1	0.0	0	1
+16	2	0.0	0	2
+17	1	0.0	0	1
+19	1	0.0	0	1
+28	1	0.0	0	1
+37	1	0.0	0	1
+38	1	0.0	0	1
+44	1	0.0	0	1
+45	2	0.0	0	2
+46	1	0.0	0	1
+51	1	0.0	0	1
+58	1	0.0	0	1
+59	1	0.0	0	1
+60	1	0.0	0	1
+61	3	0.0	0	3
+62	55	0.0	0	55
+63	1798	0.0	0	1798
+64	121	0.0	0	121
+65	11	0.0	0	11
+66	9	0.0	0	9
+67	1	0.0	0	1
+118	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGTTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06R13.fastq F06.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.44 s (12 µs/read; 4.99 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  36,359
+Reads with adapters:                     3,787 (10.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           32,572 (89.6%)
+Reads written (passing filters):         3,787 (10.4%)
+
+Total basepairs processed:     9,668,141 bp
+Total written (filtered):        882,256 bp (9.1%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGTTAGA; Type: regular 3'; Length: 10; Trimmed: 3787 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.2%
+  C: 99.0%
+  G: 0.1%
+  T: 0.7%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	2652	0.0	0	2652
+11	2	0.0	0	2
+12	2	0.0	0	2
+13	2	0.0	0	2
+14	3	0.0	0	3
+16	2	0.0	0	2
+18	2	0.0	0	2
+20	1	0.0	0	1
+28	1	0.0	0	1
+33	1	0.0	0	1
+34	2	0.0	0	2
+37	1	0.0	0	1
+38	1	0.0	0	1
+39	1	0.0	0	1
+40	2	0.0	0	2
+43	1	0.0	0	1
+44	1	0.0	0	1
+46	2	0.0	0	2
+48	1	0.0	0	1
+51	1	0.0	0	1
+59	2	0.0	0	2
+60	2	0.0	0	2
+61	16	0.0	0	16
+62	61	0.0	0	61
+63	776	0.0	0	776
+64	225	0.0	0	225
+65	19	0.0	0	19
+66	2	0.0	0	2
+67	2	0.0	0	2
+69	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACACTCCAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06R14.fastq F06.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.41 s (11 µs/read; 5.34 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  36,359
+Reads with adapters:                     2,674 (7.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           33,685 (92.6%)
+Reads written (passing filters):         2,674 (7.4%)
+
+Total basepairs processed:     9,668,141 bp
+Total written (filtered):        611,994 bp (6.3%)
+
+=== Adapter 1 ===
+
+Sequence: GACACTCCAA; Type: regular 3'; Length: 10; Trimmed: 2674 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 88.2%
+  G: 11.0%
+  T: 0.7%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	253	0.0	0	253
+11	17	0.0	0	17
+12	2	0.0	0	2
+13	1	0.0	0	1
+14	2	0.0	0	2
+16	2	0.0	0	2
+18	2	0.0	0	2
+19	2	0.0	0	2
+20	2	0.0	0	2
+22	2	0.0	0	2
+23	1	0.0	0	1
+25	1	0.0	0	1
+27	1	0.0	0	1
+29	2	0.0	0	2
+34	1	0.0	0	1
+35	1	0.0	0	1
+36	1	0.0	0	1
+38	5	0.0	0	5
+42	2	0.0	0	2
+43	1	0.0	0	1
+45	4	0.0	0	4
+46	2	0.0	0	2
+48	2	0.0	0	2
+49	1	0.0	0	1
+50	2	0.0	0	2
+51	1	0.0	0	1
+59	1	0.0	0	1
+60	1	0.0	0	1
+61	18	0.0	0	18
+62	122	0.0	0	122
+63	1788	0.0	0	1788
+64	325	0.0	0	325
+65	74	0.0	0	74
+66	15	0.0	0	15
+67	10	0.0	0	10
+68	3	0.0	0	3
+69	1	0.0	0	1
+70	1	0.0	0	1
+80	1	0.0	0	1
+115	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACCTCTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06R15.fastq F06.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.43 s (12 µs/read; 5.02 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  36,359
+Reads with adapters:                     2,861 (7.9%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           33,498 (92.1%)
+Reads written (passing filters):         2,861 (7.9%)
+
+Total basepairs processed:     9,668,141 bp
+Total written (filtered):        665,930 bp (6.9%)
+
+=== Adapter 1 ===
+
+Sequence: GACCTCTAGA; Type: regular 3'; Length: 10; Trimmed: 2861 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.5%
+  G: 0.1%
+  T: 0.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	2008	0.0	0	2008
+11	5	0.0	0	5
+12	2	0.0	0	2
+15	1	0.0	0	1
+20	2	0.0	0	2
+22	1	0.0	0	1
+23	3	0.0	0	3
+25	1	0.0	0	1
+26	1	0.0	0	1
+27	1	0.0	0	1
+28	1	0.0	0	1
+29	2	0.0	0	2
+30	1	0.0	0	1
+31	1	0.0	0	1
+33	1	0.0	0	1
+37	1	0.0	0	1
+40	2	0.0	0	2
+42	1	0.0	0	1
+43	2	0.0	0	2
+44	1	0.0	0	1
+45	1	0.0	0	1
+46	1	0.0	0	1
+47	1	0.0	0	1
+48	1	0.0	0	1
+49	2	0.0	0	2
+50	1	0.0	0	1
+52	2	0.0	0	2
+53	2	0.0	0	2
+54	1	0.0	0	1
+61	7	0.0	0	7
+62	53	0.0	0	53
+63	530	0.0	0	530
+64	166	0.0	0	166
+65	30	0.0	0	30
+66	12	0.0	0	12
+67	6	0.0	0	6
+68	2	0.0	0	2
+69	4	0.0	0	4
+70	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCATCCAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06R16.fastq F06.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.41 s (11 µs/read; 5.33 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  36,359
+Reads with adapters:                     4,135 (11.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           32,224 (88.6%)
+Reads written (passing filters):         4,135 (11.4%)
+
+Total basepairs processed:     9,668,141 bp
+Total written (filtered):        962,768 bp (10.0%)
+
+=== Adapter 1 ===
+
+Sequence: GTCATCCAGA; Type: regular 3'; Length: 10; Trimmed: 4135 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.1%
+  G: 0.3%
+  T: 0.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	81	0.0	0	81
+13	1	0.0	0	1
+19	2	0.0	0	2
+24	2	0.0	0	2
+27	1	0.0	0	1
+28	1	0.0	0	1
+29	1	0.0	0	1
+30	2	0.0	0	2
+32	2	0.0	0	2
+34	1	0.0	0	1
+35	1	0.0	0	1
+37	1	0.0	0	1
+38	4	0.0	0	4
+40	1	0.0	0	1
+41	1	0.0	0	1
+42	2	0.0	0	2
+43	1	0.0	0	1
+44	3	0.0	0	3
+46	1	0.0	0	1
+50	2	0.0	0	2
+51	4	0.0	0	4
+52	2	0.0	0	2
+53	1	0.0	0	1
+59	3	0.0	0	3
+60	3	0.0	0	3
+61	19	0.0	0	19
+62	215	0.0	0	215
+63	3545	0.0	0	3545
+64	181	0.0	0	181
+65	36	0.0	0	36
+66	10	0.0	0	10
+67	2	0.0	0	2
+68	1	0.0	0	1
+69	1	0.0	0	1
+70	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACGAATAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06R17.fastq F06.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.41 s (11 µs/read; 5.32 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  36,359
+Reads with adapters:                     3,339 (9.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           33,020 (90.8%)
+Reads written (passing filters):         3,339 (9.2%)
+
+Total basepairs processed:     9,668,141 bp
+Total written (filtered):        783,537 bp (8.1%)
+
+=== Adapter 1 ===
+
+Sequence: GACGAATAGA; Type: regular 3'; Length: 10; Trimmed: 3339 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 97.6%
+  G: 0.2%
+  T: 2.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	58	0.0	0	58
+11	1	0.0	0	1
+12	2	0.0	0	2
+13	1	0.0	0	1
+15	1	0.0	0	1
+17	1	0.0	0	1
+18	2	0.0	0	2
+21	1	0.0	0	1
+22	1	0.0	0	1
+23	1	0.0	0	1
+25	3	0.0	0	3
+28	2	0.0	0	2
+29	3	0.0	0	3
+30	5	0.0	0	5
+31	4	0.0	0	4
+32	5	0.0	0	5
+33	5	0.0	0	5
+34	2	0.0	0	2
+35	1	0.0	0	1
+36	5	0.0	0	5
+37	7	0.0	0	7
+38	1	0.0	0	1
+39	1	0.0	0	1
+40	3	0.0	0	3
+41	7	0.0	0	7
+42	3	0.0	0	3
+43	3	0.0	0	3
+44	5	0.0	0	5
+45	4	0.0	0	4
+46	2	0.0	0	2
+48	6	0.0	0	6
+49	3	0.0	0	3
+50	2	0.0	0	2
+51	3	0.0	0	3
+53	2	0.0	0	2
+58	2	0.0	0	2
+59	3	0.0	0	3
+60	2	0.0	0	2
+61	21	0.0	0	21
+62	153	0.0	0	153
+63	2528	0.0	0	2528
+64	386	0.0	0	386
+65	67	0.0	0	67
+66	14	0.0	0	14
+67	6	0.0	0	6
+68	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GCAATTGCCT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06R18.fastq F06.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.40 s (11 µs/read; 5.51 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  36,359
+Reads with adapters:                     4,405 (12.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           31,954 (87.9%)
+Reads written (passing filters):         4,405 (12.1%)
+
+Total basepairs processed:     9,668,141 bp
+Total written (filtered):      1,028,229 bp (10.6%)
+
+=== Adapter 1 ===
+
+Sequence: GCAATTGCCT; Type: regular 3'; Length: 10; Trimmed: 4405 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 99.0%
+  G: 0.6%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	149	0.0	0	149
+11	2	0.0	0	2
+12	1	0.0	0	1
+13	4	0.0	0	4
+14	2	0.0	0	2
+17	1	0.0	0	1
+18	4	0.0	0	4
+19	1	0.0	0	1
+23	2	0.0	0	2
+24	1	0.0	0	1
+28	1	0.0	0	1
+29	2	0.0	0	2
+31	2	0.0	0	2
+32	3	0.0	0	3
+33	1	0.0	0	1
+36	1	0.0	0	1
+37	2	0.0	0	2
+38	1	0.0	0	1
+41	1	0.0	0	1
+42	1	0.0	0	1
+43	3	0.0	0	3
+44	1	0.0	0	1
+45	1	0.0	0	1
+46	1	0.0	0	1
+48	1	0.0	0	1
+49	3	0.0	0	3
+50	2	0.0	0	2
+51	2	0.0	0	2
+52	1	0.0	0	1
+53	2	0.0	0	2
+56	1	0.0	0	1
+58	1	0.0	0	1
+59	1	0.0	0	1
+60	4	0.0	0	4
+61	31	0.0	0	31
+62	172	0.0	0	172
+63	3434	0.0	0	3434
+64	424	0.0	0	424
+65	76	0.0	0	76
+66	36	0.0	0	36
+67	12	0.0	0	12
+68	7	0.0	0	7
+69	2	0.0	0	2
+70	2	0.0	0	2
+72	1	0.0	0	1
+91	1	0.0	0	1
+120	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGACTAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06R19.fastq F06.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.41 s (11 µs/read; 5.28 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  36,359
+Reads with adapters:                     5,510 (15.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           30,849 (84.8%)
+Reads written (passing filters):         5,510 (15.2%)
+
+Total basepairs processed:     9,668,141 bp
+Total written (filtered):      1,285,437 bp (13.3%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGACTAA; Type: regular 3'; Length: 10; Trimmed: 5510 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.9%
+  G: 0.6%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	89	0.0	0	89
+11	17	0.0	0	17
+12	2	0.0	0	2
+13	2	0.0	0	2
+14	3	0.0	0	3
+15	2	0.0	0	2
+18	1	0.0	0	1
+20	1	0.0	0	1
+21	1	0.0	0	1
+27	1	0.0	0	1
+28	1	0.0	0	1
+29	2	0.0	0	2
+32	1	0.0	0	1
+33	3	0.0	0	3
+35	1	0.0	0	1
+36	2	0.0	0	2
+37	1	0.0	0	1
+38	2	0.0	0	2
+39	1	0.0	0	1
+40	2	0.0	0	2
+41	1	0.0	0	1
+42	1	0.0	0	1
+44	1	0.0	0	1
+49	1	0.0	0	1
+51	1	0.0	0	1
+54	1	0.0	0	1
+58	2	0.0	0	2
+59	4	0.0	0	4
+60	8	0.0	0	8
+61	22	0.0	0	22
+62	318	0.0	0	318
+63	4257	0.0	0	4257
+64	556	0.0	0	556
+65	134	0.0	0	134
+66	48	0.0	0	48
+67	8	0.0	0	8
+68	6	0.0	0	6
+69	2	0.0	0	2
+70	1	0.0	0	1
+71	1	0.0	0	1
+76	1	0.0	0	1
+101	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATGGATCTG --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06R20.fastq F06.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.39 s (11 µs/read; 5.63 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  36,359
+Reads with adapters:                       188 (0.5%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           36,171 (99.5%)
+Reads written (passing filters):           188 (0.5%)
+
+Total basepairs processed:     9,668,141 bp
+Total written (filtered):         43,820 bp (0.5%)
+
+=== Adapter 1 ===
+
+Sequence: GATGGATCTG; Type: regular 3'; Length: 10; Trimmed: 188 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.9%
+  G: 0.0%
+  T: 1.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	4	0.0	0	4
+29	1	0.0	0	1
+33	1	0.0	0	1
+36	1	0.0	0	1
+41	1	0.0	0	1
+47	1	0.0	0	1
+60	1	0.0	0	1
+61	2	0.0	0	2
+62	16	0.0	0	16
+63	136	0.0	0	136
+64	17	0.0	0	17
+65	3	0.0	0	3
+66	3	0.0	0	3
+67	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATTCGAGGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02R11.fastq F02.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.44 s (8 µs/read; 7.32 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,230
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           53,230 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:    14,491,650 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATTCGAGGA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GAACCACCTA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02R12.fastq F02.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.46 s (9 µs/read; 6.89 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,230
+Reads with adapters:                     3,922 (7.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           49,308 (92.6%)
+Reads written (passing filters):         3,922 (7.4%)
+
+Total basepairs processed:    14,491,650 bp
+Total written (filtered):        912,088 bp (6.3%)
+
+=== Adapter 1 ===
+
+Sequence: GAACCACCTA; Type: regular 3'; Length: 10; Trimmed: 3922 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 91.5%
+  G: 8.2%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	309	0.1	0	309
+11	1	0.1	0	1
+12	2	0.1	0	2
+14	2	0.1	0	2
+15	2	0.1	0	2
+16	1	0.1	0	1
+17	1	0.1	0	1
+22	1	0.1	0	1
+29	2	0.1	0	2
+35	1	0.1	0	1
+36	1	0.1	0	1
+37	2	0.1	0	2
+38	1	0.1	0	1
+39	2	0.1	0	2
+40	1	0.1	0	1
+41	2	0.1	0	2
+42	4	0.1	0	4
+43	1	0.1	0	1
+44	9	0.1	0	9
+45	1	0.1	0	1
+46	2	0.1	0	2
+49	1	0.1	0	1
+50	1	0.1	0	1
+51	2	0.1	0	2
+57	1	0.1	0	1
+58	1	0.1	0	1
+59	4	0.1	0	4
+60	5	0.1	0	5
+61	12	0.1	0	12
+62	146	0.1	0	146
+63	2887	0.1	0	2887
+64	410	0.1	0	410
+65	69	0.1	0	69
+66	24	0.1	0	24
+67	6	0.1	0	6
+68	3	0.1	0	3
+69	1	0.1	0	1
+72	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGTTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02R13.fastq F02.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.44 s (8 µs/read; 7.24 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,230
+Reads with adapters:                     3,310 (6.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           49,920 (93.8%)
+Reads written (passing filters):         3,310 (6.2%)
+
+Total basepairs processed:    14,491,650 bp
+Total written (filtered):        771,266 bp (5.3%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGTTAGA; Type: regular 3'; Length: 10; Trimmed: 3310 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 99.3%
+  G: 0.2%
+  T: 0.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1753	0.1	0	1753
+11	1	0.1	0	1
+13	1	0.1	0	1
+14	1	0.1	0	1
+15	1	0.1	0	1
+19	1	0.1	0	1
+20	1	0.1	0	1
+25	1	0.1	0	1
+30	1	0.1	0	1
+46	1	0.1	0	1
+48	1	0.1	0	1
+57	1	0.1	0	1
+58	1	0.1	0	1
+60	1	0.1	0	1
+61	3	0.1	0	3
+62	43	0.1	0	43
+63	1074	0.1	0	1074
+64	367	0.1	0	367
+65	38	0.1	0	38
+66	9	0.1	0	9
+67	8	0.1	0	8
+68	1	0.1	0	1
+72	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACACTCCAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02R14.fastq F02.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.43 s (8 µs/read; 7.36 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,230
+Reads with adapters:                     4,475 (8.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           48,755 (91.6%)
+Reads written (passing filters):         4,475 (8.4%)
+
+Total basepairs processed:    14,491,650 bp
+Total written (filtered):      1,008,076 bp (7.0%)
+
+=== Adapter 1 ===
+
+Sequence: GACACTCCAA; Type: regular 3'; Length: 10; Trimmed: 4475 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.2%
+  G: 1.3%
+  T: 0.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	326	0.1	0	326
+11	12	0.1	0	12
+13	1	0.1	0	1
+15	2	0.1	0	2
+17	1	0.1	0	1
+18	2	0.1	0	2
+19	1	0.1	0	1
+21	1	0.1	0	1
+22	3	0.1	0	3
+23	1	0.1	0	1
+24	1	0.1	0	1
+30	1	0.1	0	1
+33	4	0.1	0	4
+34	3	0.1	0	3
+36	1	0.1	0	1
+37	2	0.1	0	2
+38	1	0.1	0	1
+39	1	0.1	0	1
+40	1	0.1	0	1
+41	2	0.1	0	2
+42	2	0.1	0	2
+43	1	0.1	0	1
+44	1	0.1	0	1
+48	1	0.1	0	1
+50	2	0.1	0	2
+51	2	0.1	0	2
+58	1	0.1	0	1
+59	7	0.1	0	7
+60	2	0.1	0	2
+61	16	0.1	0	16
+62	157	0.1	0	157
+63	3562	0.1	0	3562
+64	268	0.1	0	268
+65	53	0.1	0	53
+66	16	0.1	0	16
+67	7	0.1	0	7
+68	2	0.1	0	2
+69	1	0.1	0	1
+70	2	0.1	0	2
+71	3	0.1	0	3
+73	1	0.1	0	1
+74	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACCTCTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02R15.fastq F02.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.46 s (9 µs/read; 6.89 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,230
+Reads with adapters:                     5,290 (9.9%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           47,940 (90.1%)
+Reads written (passing filters):         5,290 (9.9%)
+
+Total basepairs processed:    14,491,650 bp
+Total written (filtered):      1,230,484 bp (8.5%)
+
+=== Adapter 1 ===
+
+Sequence: GACCTCTAGA; Type: regular 3'; Length: 10; Trimmed: 5290 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.3%
+  G: 0.2%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	695	0.1	0	695
+11	1	0.1	0	1
+13	2	0.1	0	2
+19	1	0.1	0	1
+21	1	0.1	0	1
+24	1	0.1	0	1
+25	1	0.1	0	1
+26	1	0.1	0	1
+30	2	0.1	0	2
+32	2	0.1	0	2
+34	2	0.1	0	2
+36	2	0.1	0	2
+37	1	0.1	0	1
+38	1	0.1	0	1
+39	1	0.1	0	1
+40	1	0.1	0	1
+41	2	0.1	0	2
+43	2	0.1	0	2
+44	1	0.1	0	1
+46	1	0.1	0	1
+47	1	0.1	0	1
+48	1	0.1	0	1
+49	2	0.1	0	2
+50	1	0.1	0	1
+51	1	0.1	0	1
+58	1	0.1	0	1
+60	5	0.1	0	5
+61	35	0.1	0	35
+62	312	0.1	0	312
+63	3561	0.1	0	3561
+64	538	0.1	0	538
+65	70	0.1	0	70
+66	23	0.1	0	23
+67	10	0.1	0	10
+68	3	0.1	0	3
+69	2	0.1	0	2
+70	1	0.1	0	1
+76	2	0.1	0	2
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCATCCAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02R16.fastq F02.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.46 s (9 µs/read; 7.01 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,230
+Reads with adapters:                     5,873 (11.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           47,357 (89.0%)
+Reads written (passing filters):         5,873 (11.0%)
+
+Total basepairs processed:    14,491,650 bp
+Total written (filtered):      1,365,308 bp (9.4%)
+
+=== Adapter 1 ===
+
+Sequence: GTCATCCAGA; Type: regular 3'; Length: 10; Trimmed: 5873 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 98.2%
+  G: 1.1%
+  T: 0.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	96	0.1	0	96
+11	3	0.1	0	3
+12	3	0.1	0	3
+13	3	0.1	0	3
+18	1	0.1	0	1
+19	2	0.1	0	2
+20	1	0.1	0	1
+21	1	0.1	0	1
+23	2	0.1	0	2
+24	2	0.1	0	2
+25	1	0.1	0	1
+27	1	0.1	0	1
+28	1	0.1	0	1
+29	1	0.1	0	1
+30	2	0.1	0	2
+31	1	0.1	0	1
+32	1	0.1	0	1
+33	2	0.1	0	2
+34	2	0.1	0	2
+35	1	0.1	0	1
+37	2	0.1	0	2
+38	3	0.1	0	3
+39	2	0.1	0	2
+41	1	0.1	0	1
+42	1	0.1	0	1
+43	4	0.1	0	4
+44	4	0.1	0	4
+45	2	0.1	0	2
+46	4	0.1	0	4
+47	6	0.1	0	6
+49	1	0.1	0	1
+50	2	0.1	0	2
+51	1	0.1	0	1
+52	2	0.1	0	2
+53	1	0.1	0	1
+56	1	0.1	0	1
+58	6	0.1	0	6
+59	4	0.1	0	4
+60	1	0.1	0	1
+61	34	0.1	0	34
+62	247	0.1	0	247
+63	4587	0.1	0	4587
+64	677	0.1	0	677
+65	108	0.1	0	108
+66	24	0.1	0	24
+67	10	0.1	0	10
+68	5	0.1	0	5
+71	2	0.1	0	2
+72	1	0.1	0	1
+138	1	0.1	0	1
+139	1	0.1	0	1
+192	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACGAATAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02R17.fastq F02.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.45 s (8 µs/read; 7.11 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,230
+Reads with adapters:                     6,323 (11.9%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           46,907 (88.1%)
+Reads written (passing filters):         6,323 (11.9%)
+
+Total basepairs processed:    14,491,650 bp
+Total written (filtered):      1,470,131 bp (10.1%)
+
+=== Adapter 1 ===
+
+Sequence: GACGAATAGA; Type: regular 3'; Length: 10; Trimmed: 6323 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.2%
+  C: 96.0%
+  G: 3.1%
+  T: 0.7%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	269	0.1	0	269
+11	2	0.1	0	2
+13	3	0.1	0	3
+14	1	0.1	0	1
+19	1	0.1	0	1
+20	1	0.1	0	1
+21	1	0.1	0	1
+22	2	0.1	0	2
+23	1	0.1	0	1
+24	1	0.1	0	1
+27	1	0.1	0	1
+28	2	0.1	0	2
+29	1	0.1	0	1
+30	3	0.1	0	3
+34	1	0.1	0	1
+35	1	0.1	0	1
+37	1	0.1	0	1
+38	2	0.1	0	2
+39	1	0.1	0	1
+40	1	0.1	0	1
+41	2	0.1	0	2
+42	3	0.1	0	3
+43	1	0.1	0	1
+44	5	0.1	0	5
+45	3	0.1	0	3
+46	5	0.1	0	5
+48	1	0.1	0	1
+49	1	0.1	0	1
+50	1	0.1	0	1
+51	1	0.1	0	1
+53	1	0.1	0	1
+54	1	0.1	0	1
+57	2	0.1	0	2
+58	1	0.1	0	1
+59	2	0.1	0	2
+60	9	0.1	0	9
+61	64	0.1	0	64
+62	364	0.1	0	364
+63	5036	0.1	0	5036
+64	383	0.1	0	383
+65	82	0.1	0	82
+66	33	0.1	0	33
+67	10	0.1	0	10
+68	5	0.1	0	5
+69	3	0.1	0	3
+70	2	0.1	0	2
+71	1	0.1	0	1
+72	1	0.1	0	1
+77	1	0.1	0	1
+78	1	0.1	0	1
+81	1	0.1	0	1
+102	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GCAATTGCCT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02R18.fastq F02.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.45 s (8 µs/read; 7.14 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,230
+Reads with adapters:                     4,898 (9.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           48,332 (90.8%)
+Reads written (passing filters):         4,898 (9.2%)
+
+Total basepairs processed:    14,491,650 bp
+Total written (filtered):      1,140,244 bp (7.9%)
+
+=== Adapter 1 ===
+
+Sequence: GCAATTGCCT; Type: regular 3'; Length: 10; Trimmed: 4898 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.4%
+  C: 98.8%
+  G: 0.6%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	224	0.1	0	224
+11	4	0.1	0	4
+12	1	0.1	0	1
+13	5	0.1	0	5
+14	1	0.1	0	1
+15	1	0.1	0	1
+16	2	0.1	0	2
+18	3	0.1	0	3
+20	2	0.1	0	2
+22	1	0.1	0	1
+23	1	0.1	0	1
+24	2	0.1	0	2
+25	2	0.1	0	2
+26	1	0.1	0	1
+27	1	0.1	0	1
+29	1	0.1	0	1
+30	1	0.1	0	1
+32	1	0.1	0	1
+33	1	0.1	0	1
+36	1	0.1	0	1
+42	1	0.1	0	1
+43	1	0.1	0	1
+44	2	0.1	0	2
+45	3	0.1	0	3
+46	3	0.1	0	3
+47	5	0.1	0	5
+48	5	0.1	0	5
+50	1	0.1	0	1
+51	2	0.1	0	2
+52	2	0.1	0	2
+53	3	0.1	0	3
+56	1	0.1	0	1
+59	5	0.1	0	5
+60	5	0.1	0	5
+61	16	0.1	0	16
+62	142	0.1	0	142
+63	3893	0.1	0	3893
+64	415	0.1	0	415
+65	78	0.1	0	78
+66	34	0.1	0	34
+67	14	0.1	0	14
+68	5	0.1	0	5
+69	2	0.1	0	2
+71	2	0.1	0	2
+75	1	0.1	0	1
+87	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGACTAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02R19.fastq F02.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.44 s (8 µs/read; 7.27 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,230
+Reads with adapters:                     5,048 (9.5%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           48,182 (90.5%)
+Reads written (passing filters):         5,048 (9.5%)
+
+Total basepairs processed:    14,491,650 bp
+Total written (filtered):      1,172,774 bp (8.1%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGACTAA; Type: regular 3'; Length: 10; Trimmed: 5048 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.7%
+  G: 0.0%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	56	0.1	0	56
+11	4	0.1	0	4
+12	1	0.1	0	1
+13	3	0.1	0	3
+14	3	0.1	0	3
+15	1	0.1	0	1
+18	2	0.1	0	2
+20	2	0.1	0	2
+27	1	0.1	0	1
+28	1	0.1	0	1
+29	1	0.1	0	1
+31	1	0.1	0	1
+32	1	0.1	0	1
+33	1	0.1	0	1
+34	1	0.1	0	1
+36	1	0.1	0	1
+38	3	0.1	0	3
+39	4	0.1	0	4
+40	1	0.1	0	1
+41	2	0.1	0	2
+43	1	0.1	0	1
+46	2	0.1	0	2
+48	1	0.1	0	1
+49	1	0.1	0	1
+51	5	0.1	0	5
+53	1	0.1	0	1
+58	2	0.1	0	2
+59	1	0.1	0	1
+60	3	0.1	0	3
+61	25	0.1	0	25
+62	306	0.1	0	306
+63	4016	0.1	0	4016
+64	491	0.1	0	491
+65	71	0.1	0	71
+66	18	0.1	0	18
+67	5	0.1	0	5
+68	4	0.1	0	4
+69	2	0.1	0	2
+70	1	0.1	0	1
+77	1	0.1	0	1
+100	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATGGATCTG --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02R20.fastq F02.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.45 s (8 µs/read; 7.15 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,230
+Reads with adapters:                     3,855 (7.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           49,375 (92.8%)
+Reads written (passing filters):         3,855 (7.2%)
+
+Total basepairs processed:    14,491,650 bp
+Total written (filtered):        897,934 bp (6.2%)
+
+=== Adapter 1 ===
+
+Sequence: GATGGATCTG; Type: regular 3'; Length: 10; Trimmed: 3855 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 95.6%
+  G: 3.5%
+  T: 0.8%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	261	0.1	0	261
+11	3	0.1	0	3
+12	1	0.1	0	1
+13	1	0.1	0	1
+14	6	0.1	0	6
+15	1	0.1	0	1
+16	2	0.1	0	2
+17	2	0.1	0	2
+18	3	0.1	0	3
+20	4	0.1	0	4
+21	2	0.1	0	2
+22	5	0.1	0	5
+23	3	0.1	0	3
+25	2	0.1	0	2
+26	5	0.1	0	5
+27	3	0.1	0	3
+28	2	0.1	0	2
+29	2	0.1	0	2
+30	1	0.1	0	1
+32	3	0.1	0	3
+34	1	0.1	0	1
+35	1	0.1	0	1
+36	2	0.1	0	2
+37	3	0.1	0	3
+38	2	0.1	0	2
+39	1	0.1	0	1
+40	4	0.1	0	4
+41	1	0.1	0	1
+42	4	0.1	0	4
+43	2	0.1	0	2
+45	4	0.1	0	4
+46	5	0.1	0	5
+47	1	0.1	0	1
+49	1	0.1	0	1
+50	3	0.1	0	3
+51	3	0.1	0	3
+52	1	0.1	0	1
+53	3	0.1	0	3
+57	1	0.1	0	1
+59	2	0.1	0	2
+60	10	0.1	0	10
+61	46	0.1	0	46
+62	299	0.1	0	299
+63	2743	0.1	0	2743
+64	281	0.1	0	281
+65	73	0.1	0	73
+66	23	0.1	0	23
+67	14	0.1	0	14
+68	5	0.1	0	5
+70	1	0.1	0	1
+71	2	0.1	0	2
+80	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATTCGAGGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08R11.fastq F08.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.48 s (9 µs/read; 6.74 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,504
+Reads with adapters:                         1 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           53,503 (100.0%)
+Reads written (passing filters):             1 (0.0%)
+
+Total basepairs processed:    13,920,707 bp
+Total written (filtered):            103 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATTCGAGGA; Type: regular 3'; Length: 10; Trimmed: 1 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 100.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+141	1	0.1	0	1
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GAACCACCTA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08R12.fastq F08.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.50 s (9 µs/read; 6.37 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,504
+Reads with adapters:                     6,271 (11.7%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           47,233 (88.3%)
+Reads written (passing filters):         6,271 (11.7%)
+
+Total basepairs processed:    13,920,707 bp
+Total written (filtered):      1,459,888 bp (10.5%)
+
+=== Adapter 1 ===
+
+Sequence: GAACCACCTA; Type: regular 3'; Length: 10; Trimmed: 6271 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.6%
+  G: 1.1%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	201	0.1	0	201
+11	1	0.1	0	1
+12	1	0.1	0	1
+14	1	0.1	0	1
+18	1	0.1	0	1
+19	1	0.1	0	1
+22	2	0.1	0	2
+23	1	0.1	0	1
+24	2	0.1	0	2
+25	1	0.1	0	1
+26	2	0.1	0	2
+28	1	0.1	0	1
+34	1	0.1	0	1
+35	2	0.1	0	2
+36	1	0.1	0	1
+37	1	0.1	0	1
+38	4	0.1	0	4
+39	1	0.1	0	1
+40	1	0.1	0	1
+41	1	0.1	0	1
+48	2	0.1	0	2
+51	3	0.1	0	3
+58	2	0.1	0	2
+59	1	0.1	0	1
+60	5	0.1	0	5
+61	27	0.1	0	27
+62	231	0.1	0	231
+63	5139	0.1	0	5139
+64	523	0.1	0	523
+65	75	0.1	0	75
+66	21	0.1	0	21
+67	11	0.1	0	11
+68	1	0.1	0	1
+69	1	0.1	0	1
+75	1	0.1	0	1
+98	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGTTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08R13.fastq F08.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.43 s (8 µs/read; 7.45 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,504
+Reads with adapters:                     2,466 (4.6%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           51,038 (95.4%)
+Reads written (passing filters):         2,466 (4.6%)
+
+Total basepairs processed:    13,920,707 bp
+Total written (filtered):        574,217 bp (4.1%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGTTAGA; Type: regular 3'; Length: 10; Trimmed: 2466 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.3%
+  G: 1.1%
+  T: 0.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1434	0.1	0	1434
+11	1	0.1	0	1
+16	1	0.1	0	1
+20	1	0.1	0	1
+25	1	0.1	0	1
+28	1	0.1	0	1
+39	1	0.1	0	1
+43	1	0.1	0	1
+45	3	0.1	0	3
+46	1	0.1	0	1
+49	1	0.1	0	1
+51	1	0.1	0	1
+58	1	0.1	0	1
+59	1	0.1	0	1
+61	8	0.1	0	8
+62	50	0.1	0	50
+63	696	0.1	0	696
+64	221	0.1	0	221
+65	30	0.1	0	30
+66	10	0.1	0	10
+67	2	0.1	0	2
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACACTCCAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08R14.fastq F08.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.46 s (9 µs/read; 6.96 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,504
+Reads with adapters:                     5,473 (10.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           48,031 (89.8%)
+Reads written (passing filters):         5,473 (10.2%)
+
+Total basepairs processed:    13,920,707 bp
+Total written (filtered):      1,272,686 bp (9.1%)
+
+=== Adapter 1 ===
+
+Sequence: GACACTCCAA; Type: regular 3'; Length: 10; Trimmed: 5473 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.9%
+  G: 0.6%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	274	0.1	0	274
+11	11	0.1	0	11
+13	1	0.1	0	1
+15	2	0.1	0	2
+16	1	0.1	0	1
+18	1	0.1	0	1
+19	2	0.1	0	2
+20	1	0.1	0	1
+21	2	0.1	0	2
+22	1	0.1	0	1
+25	1	0.1	0	1
+30	2	0.1	0	2
+31	1	0.1	0	1
+33	2	0.1	0	2
+34	1	0.1	0	1
+36	1	0.1	0	1
+37	3	0.1	0	3
+38	3	0.1	0	3
+39	1	0.1	0	1
+42	1	0.1	0	1
+43	1	0.1	0	1
+47	2	0.1	0	2
+48	2	0.1	0	2
+50	1	0.1	0	1
+51	3	0.1	0	3
+59	3	0.1	0	3
+60	3	0.1	0	3
+61	31	0.1	0	31
+62	178	0.1	0	178
+63	4241	0.1	0	4241
+64	568	0.1	0	568
+65	89	0.1	0	89
+66	29	0.1	0	29
+67	5	0.1	0	5
+68	2	0.1	0	2
+72	1	0.1	0	1
+99	1	0.1	0	1
+103	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACCTCTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08R15.fastq F08.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.44 s (8 µs/read; 7.26 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,504
+Reads with adapters:                     5,270 (9.8%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           48,234 (90.2%)
+Reads written (passing filters):         5,270 (9.8%)
+
+Total basepairs processed:    13,920,707 bp
+Total written (filtered):      1,225,648 bp (8.8%)
+
+=== Adapter 1 ===
+
+Sequence: GACCTCTAGA; Type: regular 3'; Length: 10; Trimmed: 5270 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 99.3%
+  G: 0.2%
+  T: 0.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	4654	0.1	0	4654
+11	5	0.1	0	5
+13	2	0.1	0	2
+14	3	0.1	0	3
+15	1	0.1	0	1
+18	1	0.1	0	1
+19	2	0.1	0	2
+20	1	0.1	0	1
+21	2	0.1	0	2
+32	1	0.1	0	1
+44	1	0.1	0	1
+48	1	0.1	0	1
+50	1	0.1	0	1
+59	1	0.1	0	1
+61	11	0.1	0	11
+62	25	0.1	0	25
+63	297	0.1	0	297
+64	222	0.1	0	222
+65	25	0.1	0	25
+66	9	0.1	0	9
+67	3	0.1	0	3
+68	1	0.1	0	1
+75	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCATCCAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08R16.fastq F08.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.48 s (9 µs/read; 6.74 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,504
+Reads with adapters:                     4,109 (7.7%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           49,395 (92.3%)
+Reads written (passing filters):         4,109 (7.7%)
+
+Total basepairs processed:    13,920,707 bp
+Total written (filtered):        955,139 bp (6.9%)
+
+=== Adapter 1 ===
+
+Sequence: GTCATCCAGA; Type: regular 3'; Length: 10; Trimmed: 4109 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.5%
+  G: 0.2%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	47	0.1	0	47
+11	1	0.1	0	1
+12	2	0.1	0	2
+23	1	0.1	0	1
+35	1	0.1	0	1
+37	2	0.1	0	2
+38	4	0.1	0	4
+41	1	0.1	0	1
+42	3	0.1	0	3
+43	1	0.1	0	1
+44	1	0.1	0	1
+47	1	0.1	0	1
+50	1	0.1	0	1
+51	3	0.1	0	3
+59	1	0.1	0	1
+60	5	0.1	0	5
+61	25	0.1	0	25
+62	171	0.1	0	171
+63	3368	0.1	0	3368
+64	405	0.1	0	405
+65	50	0.1	0	50
+66	11	0.1	0	11
+67	1	0.1	0	1
+78	1	0.1	0	1
+97	1	0.1	0	1
+115	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACGAATAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08R17.fastq F08.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.46 s (9 µs/read; 6.91 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,504
+Reads with adapters:                     3,923 (7.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           49,581 (92.7%)
+Reads written (passing filters):         3,923 (7.3%)
+
+Total basepairs processed:    13,920,707 bp
+Total written (filtered):        912,399 bp (6.6%)
+
+=== Adapter 1 ===
+
+Sequence: GACGAATAGA; Type: regular 3'; Length: 10; Trimmed: 3923 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.5%
+  G: 0.1%
+  T: 0.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	25	0.1	0	25
+12	2	0.1	0	2
+16	1	0.1	0	1
+17	2	0.1	0	2
+18	1	0.1	0	1
+24	2	0.1	0	2
+25	1	0.1	0	1
+28	2	0.1	0	2
+35	1	0.1	0	1
+37	1	0.1	0	1
+38	2	0.1	0	2
+43	1	0.1	0	1
+45	1	0.1	0	1
+47	1	0.1	0	1
+48	2	0.1	0	2
+50	1	0.1	0	1
+51	2	0.1	0	2
+56	1	0.1	0	1
+58	1	0.1	0	1
+59	5	0.1	0	5
+60	3	0.1	0	3
+61	30	0.1	0	30
+62	162	0.1	0	162
+63	3377	0.1	0	3377
+64	254	0.1	0	254
+65	31	0.1	0	31
+66	4	0.1	0	4
+67	3	0.1	0	3
+68	1	0.1	0	1
+75	1	0.1	0	1
+92	1	0.1	0	1
+149	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GCAATTGCCT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08R18.fastq F08.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.48 s (9 µs/read; 6.72 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,504
+Reads with adapters:                     5,520 (10.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           47,984 (89.7%)
+Reads written (passing filters):         5,520 (10.3%)
+
+Total basepairs processed:    13,920,707 bp
+Total written (filtered):      1,286,427 bp (9.2%)
+
+=== Adapter 1 ===
+
+Sequence: GCAATTGCCT; Type: regular 3'; Length: 10; Trimmed: 5520 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.6%
+  G: 0.1%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	70	0.1	0	70
+11	2	0.1	0	2
+12	1	0.1	0	1
+13	4	0.1	0	4
+14	1	0.1	0	1
+15	2	0.1	0	2
+16	1	0.1	0	1
+17	1	0.1	0	1
+18	5	0.1	0	5
+20	2	0.1	0	2
+21	2	0.1	0	2
+25	2	0.1	0	2
+26	1	0.1	0	1
+27	2	0.1	0	2
+29	2	0.1	0	2
+30	1	0.1	0	1
+32	1	0.1	0	1
+33	1	0.1	0	1
+34	1	0.1	0	1
+36	2	0.1	0	2
+37	1	0.1	0	1
+38	3	0.1	0	3
+39	1	0.1	0	1
+40	2	0.1	0	2
+41	1	0.1	0	1
+42	5	0.1	0	5
+43	2	0.1	0	2
+44	2	0.1	0	2
+45	3	0.1	0	3
+46	3	0.1	0	3
+47	3	0.1	0	3
+49	7	0.1	0	7
+51	1	0.1	0	1
+52	1	0.1	0	1
+53	6	0.1	0	6
+55	1	0.1	0	1
+56	1	0.1	0	1
+58	3	0.1	0	3
+59	5	0.1	0	5
+60	8	0.1	0	8
+61	16	0.1	0	16
+62	188	0.1	0	188
+63	4471	0.1	0	4471
+64	484	0.1	0	484
+65	123	0.1	0	123
+66	41	0.1	0	41
+67	15	0.1	0	15
+68	11	0.1	0	11
+69	4	0.1	0	4
+70	2	0.1	0	2
+71	2	0.1	0	2
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGACTAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08R19.fastq F08.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.47 s (9 µs/read; 6.78 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,504
+Reads with adapters:                     3,274 (6.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           50,230 (93.9%)
+Reads written (passing filters):         3,274 (6.1%)
+
+Total basepairs processed:    13,920,707 bp
+Total written (filtered):        767,805 bp (5.5%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGACTAA; Type: regular 3'; Length: 10; Trimmed: 3274 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.5%
+  G: 0.7%
+  T: 0.8%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	144	0.1	0	144
+11	11	0.1	0	11
+12	1	0.1	0	1
+13	2	0.1	0	2
+14	2	0.1	0	2
+15	2	0.1	0	2
+16	3	0.1	0	3
+17	2	0.1	0	2
+18	2	0.1	0	2
+19	1	0.1	0	1
+22	1	0.1	0	1
+25	2	0.1	0	2
+27	1	0.1	0	1
+29	1	0.1	0	1
+30	1	0.1	0	1
+31	1	0.1	0	1
+32	2	0.1	0	2
+33	3	0.1	0	3
+34	1	0.1	0	1
+36	1	0.1	0	1
+37	1	0.1	0	1
+38	2	0.1	0	2
+39	2	0.1	0	2
+40	2	0.1	0	2
+41	2	0.1	0	2
+42	3	0.1	0	3
+43	1	0.1	0	1
+44	1	0.1	0	1
+45	2	0.1	0	2
+46	1	0.1	0	1
+47	1	0.1	0	1
+48	2	0.1	0	2
+50	1	0.1	0	1
+51	3	0.1	0	3
+54	1	0.1	0	1
+59	2	0.1	0	2
+60	7	0.1	0	7
+61	23	0.1	0	23
+62	140	0.1	0	140
+63	2295	0.1	0	2295
+64	407	0.1	0	407
+65	145	0.1	0	145
+66	26	0.1	0	26
+67	16	0.1	0	16
+68	3	0.1	0	3
+75	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATGGATCTG --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08R20.fastq F08.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.66 s (12 µs/read; 4.83 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  53,504
+Reads with adapters:                     4,493 (8.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           49,011 (91.6%)
+Reads written (passing filters):         4,493 (8.4%)
+
+Total basepairs processed:    13,920,707 bp
+Total written (filtered):      1,046,622 bp (7.5%)
+
+=== Adapter 1 ===
+
+Sequence: GATGGATCTG; Type: regular 3'; Length: 10; Trimmed: 4493 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 98.8%
+  G: 0.3%
+  T: 0.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	105	0.1	0	105
+11	6	0.1	0	6
+12	3	0.1	0	3
+17	3	0.1	0	3
+19	1	0.1	0	1
+20	1	0.1	0	1
+21	2	0.1	0	2
+22	1	0.1	0	1
+25	3	0.1	0	3
+26	2	0.1	0	2
+27	3	0.1	0	3
+29	2	0.1	0	2
+32	3	0.1	0	3
+33	4	0.1	0	4
+36	2	0.1	0	2
+38	4	0.1	0	4
+39	1	0.1	0	1
+40	4	0.1	0	4
+41	1	0.1	0	1
+44	1	0.1	0	1
+45	2	0.1	0	2
+46	2	0.1	0	2
+47	1	0.1	0	1
+48	3	0.1	0	3
+49	1	0.1	0	1
+50	1	0.1	0	1
+51	1	0.1	0	1
+59	3	0.1	0	3
+60	3	0.1	0	3
+61	45	0.1	0	45
+62	418	0.1	0	418
+63	3609	0.1	0	3609
+64	190	0.1	0	190
+65	40	0.1	0	40
+66	11	0.1	0	11
+67	6	0.1	0	6
+68	1	0.1	0	1
+69	2	0.1	0	2
+70	1	0.1	0	1
+71	1	0.1	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATTCGAGGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09R11.fastq F09.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.43 s (14 µs/read; 4.30 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  30,838
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           30,838 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:     8,373,691 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GATTCGAGGA; Type: regular 3'; Length: 10; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GAACCACCTA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09R12.fastq F09.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.50 s (16 µs/read; 3.71 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  30,838
+Reads with adapters:                     8,730 (28.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           22,108 (71.7%)
+Reads written (passing filters):         8,730 (28.3%)
+
+Total basepairs processed:     8,373,691 bp
+Total written (filtered):      2,036,317 bp (24.3%)
+
+=== Adapter 1 ===
+
+Sequence: GAACCACCTA; Type: regular 3'; Length: 10; Trimmed: 8730 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 97.5%
+  G: 1.9%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	681	0.0	0	681
+11	2	0.0	0	2
+12	1	0.0	0	1
+13	4	0.0	0	4
+14	3	0.0	0	3
+15	1	0.0	0	1
+16	3	0.0	0	3
+17	2	0.0	0	2
+19	3	0.0	0	3
+22	2	0.0	0	2
+23	2	0.0	0	2
+24	2	0.0	0	2
+25	1	0.0	0	1
+27	3	0.0	0	3
+28	3	0.0	0	3
+30	2	0.0	0	2
+31	2	0.0	0	2
+32	1	0.0	0	1
+33	1	0.0	0	1
+34	3	0.0	0	3
+35	3	0.0	0	3
+36	4	0.0	0	4
+37	3	0.0	0	3
+38	11	0.0	0	11
+39	7	0.0	0	7
+40	1	0.0	0	1
+41	4	0.0	0	4
+42	9	0.0	0	9
+43	4	0.0	0	4
+44	7	0.0	0	7
+45	11	0.0	0	11
+46	3	0.0	0	3
+47	6	0.0	0	6
+48	6	0.0	0	6
+49	3	0.0	0	3
+50	1	0.0	0	1
+51	8	0.0	0	8
+52	1	0.0	0	1
+54	1	0.0	0	1
+57	1	0.0	0	1
+58	2	0.0	0	2
+59	4	0.0	0	4
+60	6	0.0	0	6
+61	40	0.0	0	40
+62	356	0.0	0	356
+63	5913	0.0	0	5913
+64	1266	0.0	0	1266
+65	228	0.0	0	228
+66	53	0.0	0	53
+67	22	0.0	0	22
+68	17	0.0	0	17
+69	3	0.0	0	3
+73	2	0.0	0	2
+74	1	0.0	0	1
+102	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGTTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09R13.fastq F09.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.41 s (13 µs/read; 4.53 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  30,838
+Reads with adapters:                     4,692 (15.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           26,146 (84.8%)
+Reads written (passing filters):         4,692 (15.2%)
+
+Total basepairs processed:     8,373,691 bp
+Total written (filtered):      1,091,063 bp (13.0%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGTTAGA; Type: regular 3'; Length: 10; Trimmed: 4692 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 93.9%
+  G: 5.6%
+  T: 0.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1171	0.0	0	1171
+11	2	0.0	0	2
+13	2	0.0	0	2
+14	2	0.0	0	2
+15	1	0.0	0	1
+20	4	0.0	0	4
+22	5	0.0	0	5
+23	2	0.0	0	2
+25	1	0.0	0	1
+27	1	0.0	0	1
+28	1	0.0	0	1
+29	2	0.0	0	2
+30	1	0.0	0	1
+31	1	0.0	0	1
+32	1	0.0	0	1
+33	3	0.0	0	3
+34	1	0.0	0	1
+36	3	0.0	0	3
+37	4	0.0	0	4
+38	1	0.0	0	1
+41	1	0.0	0	1
+42	4	0.0	0	4
+43	3	0.0	0	3
+44	3	0.0	0	3
+45	5	0.0	0	5
+46	4	0.0	0	4
+47	3	0.0	0	3
+48	1	0.0	0	1
+49	1	0.0	0	1
+50	3	0.0	0	3
+52	2	0.0	0	2
+53	2	0.0	0	2
+54	3	0.0	0	3
+55	1	0.0	0	1
+59	2	0.0	0	2
+60	5	0.0	0	5
+61	15	0.0	0	15
+62	112	0.0	0	112
+63	2718	0.0	0	2718
+64	457	0.0	0	457
+65	86	0.0	0	86
+66	24	0.0	0	24
+67	14	0.0	0	14
+68	6	0.0	0	6
+69	3	0.0	0	3
+70	3	0.0	0	3
+71	1	0.0	0	1
+73	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACACTCCAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09R14.fastq F09.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.41 s (13 µs/read; 4.49 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  30,838
+Reads with adapters:                     9,611 (31.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           21,227 (68.8%)
+Reads written (passing filters):         9,611 (31.2%)
+
+Total basepairs processed:     8,373,691 bp
+Total written (filtered):      2,237,156 bp (26.7%)
+
+=== Adapter 1 ===
+
+Sequence: GACACTCCAA; Type: regular 3'; Length: 10; Trimmed: 9611 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.1%
+  C: 91.9%
+  G: 7.5%
+  T: 0.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	700	0.0	0	700
+11	30	0.0	0	30
+12	4	0.0	0	4
+14	1	0.0	0	1
+16	1	0.0	0	1
+17	1	0.0	0	1
+18	5	0.0	0	5
+19	3	0.0	0	3
+20	1	0.0	0	1
+21	1	0.0	0	1
+22	2	0.0	0	2
+23	1	0.0	0	1
+24	3	0.0	0	3
+25	1	0.0	0	1
+29	1	0.0	0	1
+30	3	0.0	0	3
+32	1	0.0	0	1
+33	4	0.0	0	4
+34	1	0.0	0	1
+35	3	0.0	0	3
+36	3	0.0	0	3
+37	3	0.0	0	3
+38	7	0.0	0	7
+39	3	0.0	0	3
+41	2	0.0	0	2
+42	3	0.0	0	3
+43	1	0.0	0	1
+44	4	0.0	0	4
+45	2	0.0	0	2
+46	2	0.0	0	2
+47	1	0.0	0	1
+48	1	0.0	0	1
+50	3	0.0	0	3
+51	4	0.0	0	4
+52	3	0.0	0	3
+53	1	0.0	0	1
+57	1	0.0	0	1
+58	1	0.0	0	1
+59	1	0.0	0	1
+60	5	0.0	0	5
+61	52	0.0	0	52
+62	387	0.0	0	387
+63	7065	0.0	0	7065
+64	1045	0.0	0	1045
+65	174	0.0	0	174
+66	52	0.0	0	52
+67	10	0.0	0	10
+68	2	0.0	0	2
+69	4	0.0	0	4
+72	1	0.0	0	1
+102	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACCTCTAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09R15.fastq F09.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.39 s (13 µs/read; 4.74 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  30,838
+Reads with adapters:                        15 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           30,823 (100.0%)
+Reads written (passing filters):            15 (0.0%)
+
+Total basepairs processed:     8,373,691 bp
+Total written (filtered):          3,587 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GACCTCTAGA; Type: regular 3'; Length: 10; Trimmed: 15 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	2	0.0	0	2
+62	1	0.0	0	1
+63	6	0.0	0	6
+64	6	0.0	0	6
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCATCCAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09R16.fastq F09.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.42 s (14 µs/read; 4.39 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  30,838
+Reads with adapters:                         3 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           30,835 (100.0%)
+Reads written (passing filters):             3 (0.0%)
+
+Total basepairs processed:     8,373,691 bp
+Total written (filtered):            336 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GTCATCCAGA; Type: regular 3'; Length: 10; Trimmed: 3 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1	0.0	0	1
+63	1	0.0	0	1
+64	1	0.0	0	1
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GACGAATAGA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09R17.fastq F09.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.39 s (13 µs/read; 4.68 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  30,838
+Reads with adapters:                        26 (0.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           30,812 (99.9%)
+Reads written (passing filters):            26 (0.1%)
+
+Total basepairs processed:     8,373,691 bp
+Total written (filtered):          6,036 bp (0.1%)
+
+=== Adapter 1 ===
+
+Sequence: GACGAATAGA; Type: regular 3'; Length: 10; Trimmed: 26 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1	0.0	0	1
+62	5	0.0	0	5
+63	20	0.0	0	20
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GCAATTGCCT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09R18.fastq F09.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.40 s (13 µs/read; 4.61 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  30,838
+Reads with adapters:                       369 (1.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           30,469 (98.8%)
+Reads written (passing filters):           369 (1.2%)
+
+Total basepairs processed:     8,373,691 bp
+Total written (filtered):         87,749 bp (1.0%)
+
+=== Adapter 1 ===
+
+Sequence: GCAATTGCCT; Type: regular 3'; Length: 10; Trimmed: 369 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.9%
+  G: 1.1%
+  T: 0.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	15	0.0	0	15
+13	1	0.0	0	1
+15	1	0.0	0	1
+34	1	0.0	0	1
+44	1	0.0	0	1
+59	2	0.0	0	2
+60	1	0.0	0	1
+61	5	0.0	0	5
+62	19	0.0	0	19
+63	260	0.0	0	260
+64	52	0.0	0	52
+65	7	0.0	0	7
+66	2	0.0	0	2
+68	1	0.0	0	1
+82	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GTCCGACTAA --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09R19.fastq F09.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.38 s (12 µs/read; 4.84 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  30,838
+Reads with adapters:                       802 (2.6%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           30,036 (97.4%)
+Reads written (passing filters):           802 (2.6%)
+
+Total basepairs processed:     8,373,691 bp
+Total written (filtered):        191,013 bp (2.3%)
+
+=== Adapter 1 ===
+
+Sequence: GTCCGACTAA; Type: regular 3'; Length: 10; Trimmed: 802 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 98.6%
+  G: 0.5%
+  T: 0.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	58	0.0	0	58
+11	24	0.0	0	24
+13	1	0.0	0	1
+14	2	0.0	0	2
+15	1	0.0	0	1
+17	1	0.0	0	1
+18	1	0.0	0	1
+21	1	0.0	0	1
+25	1	0.0	0	1
+41	1	0.0	0	1
+42	1	0.0	0	1
+43	1	0.0	0	1
+46	1	0.0	0	1
+48	1	0.0	0	1
+58	2	0.0	0	2
+59	1	0.0	0	1
+60	6	0.0	0	6
+61	4	0.0	0	4
+62	22	0.0	0	22
+63	336	0.0	0	336
+64	218	0.0	0	218
+65	81	0.0	0	81
+66	30	0.0	0	30
+67	5	0.0	0	5
+68	1	0.0	0	1
+70	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -a GATGGATCTG --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09R20.fastq F09.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 0.38 s (12 µs/read; 4.82 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  30,838
+Reads with adapters:                       802 (2.6%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           30,036 (97.4%)
+Reads written (passing filters):           802 (2.6%)
+
+Total basepairs processed:     8,373,691 bp
+Total written (filtered):        191,522 bp (2.3%)
+
+=== Adapter 1 ===
+
+Sequence: GATGGATCTG; Type: regular 3'; Length: 10; Trimmed: 802 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-10 bp: 0
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 94.1%
+  G: 2.0%
+  T: 3.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'C' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	69	0.0	0	69
+15	1	0.0	0	1
+16	2	0.0	0	2
+17	1	0.0	0	1
+19	1	0.0	0	1
+25	1	0.0	0	1
+28	2	0.0	0	2
+32	1	0.0	0	1
+35	1	0.0	0	1
+38	1	0.0	0	1
+40	1	0.0	0	1
+42	1	0.0	0	1
+43	1	0.0	0	1
+44	1	0.0	0	1
+45	1	0.0	0	1
+58	1	0.0	0	1
+59	3	0.0	0	3
+60	1	0.0	0	1
+61	4	0.0	0	4
+62	32	0.0	0	32
+63	551	0.0	0	551
+64	105	0.0	0	105
+65	14	0.0	0	14
+66	5	0.0	0	5
+70	1	0.0	0	1
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.

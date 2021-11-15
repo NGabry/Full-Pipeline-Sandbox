@@ -1,0 +1,303 @@
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -g CTAAGGTAACGAT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F01.fastq raw_seqs.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 1.41 s (3 µs/read; 19.20 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 451,347
+Reads with adapters:                     8,620 (1.9%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          442,727 (98.1%)
+Reads written (passing filters):         8,620 (1.9%)
+
+Total basepairs processed:   124,579,216 bp
+Total written (filtered):      2,229,749 bp (1.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTAAGGTAACGAT; Type: regular 5'; Length: 13; Trimmed: 8620 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-13 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+11	1	0.1	0	1
+12	7	0.0	0	7
+13	8600	0.0	0	8600
+14	10	0.0	0	10
+15	2	0.0	0	2
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -g TAAGGAGAACGAT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F02.fastq raw_seqs.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 1.37 s (3 µs/read; 19.75 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 451,347
+Reads with adapters:                    53,230 (11.8%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          398,117 (88.2%)
+Reads written (passing filters):        53,230 (11.8%)
+
+Total basepairs processed:   124,579,216 bp
+Total written (filtered):     14,491,650 bp (11.6%)
+
+=== Adapter 1 ===
+
+Sequence: TAAGGAGAACGAT; Type: regular 5'; Length: 13; Trimmed: 53230 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-13 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	47	0.0	0	47
+13	53095	0.0	0	53095
+14	88	0.0	0	88
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -g AAGAGGATTCGAT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F03.fastq raw_seqs.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 1.35 s (3 µs/read; 20.02 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 451,347
+Reads with adapters:                    53,350 (11.8%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          397,997 (88.2%)
+Reads written (passing filters):        53,350 (11.8%)
+
+Total basepairs processed:   124,579,216 bp
+Total written (filtered):     13,990,420 bp (11.2%)
+
+=== Adapter 1 ===
+
+Sequence: AAGAGGATTCGAT; Type: regular 5'; Length: 13; Trimmed: 53350 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-13 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	2	0.4	0	2
+11	1	0.1	0	1
+12	112	0.0	0	112
+13	52375	0.0	0	52375
+14	844	0.0	0	844
+15	16	0.0	0	16
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -g TCGCAATTACGAT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F04.fastq raw_seqs.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 1.40 s (3 µs/read; 19.36 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 451,347
+Reads with adapters:                    40,590 (9.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          410,757 (91.0%)
+Reads written (passing filters):        40,590 (9.0%)
+
+Total basepairs processed:   124,579,216 bp
+Total written (filtered):     10,938,226 bp (8.8%)
+
+=== Adapter 1 ===
+
+Sequence: TCGCAATTACGAT; Type: regular 5'; Length: 13; Trimmed: 40590 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-13 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	48	0.0	0	48
+13	40498	0.0	0	40498
+14	44	0.0	0	44
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -g CAGAAGGAACGAT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F05.fastq raw_seqs.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 1.40 s (3 µs/read; 19.29 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 451,347
+Reads with adapters:                    69,584 (15.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          381,763 (84.6%)
+Reads written (passing filters):        69,584 (15.4%)
+
+Total basepairs processed:   124,579,216 bp
+Total written (filtered):     18,524,288 bp (14.9%)
+
+=== Adapter 1 ===
+
+Sequence: CAGAAGGAACGAT; Type: regular 5'; Length: 13; Trimmed: 69584 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-13 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+11	1	0.1	0	1
+12	125	0.0	0	125
+13	69342	0.0	0	69342
+14	103	0.0	0	103
+15	13	0.0	0	13
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -g CTGCAAGTTCGAT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F06.fastq raw_seqs.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 1.48 s (3 µs/read; 18.36 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 451,347
+Reads with adapters:                    36,359 (8.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          414,988 (91.9%)
+Reads written (passing filters):        36,359 (8.1%)
+
+Total basepairs processed:   124,579,216 bp
+Total written (filtered):      9,668,141 bp (7.8%)
+
+=== Adapter 1 ===
+
+Sequence: CTGCAAGTTCGAT; Type: regular 5'; Length: 13; Trimmed: 36359 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-13 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	23	0.0	0	23
+13	36269	0.0	0	36269
+14	65	0.0	0	65
+15	2	0.0	0	2
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -g TTCGTGATTCGAT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F07.fastq raw_seqs.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 1.67 s (4 µs/read; 16.22 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 451,347
+Reads with adapters:                    77,462 (17.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          373,885 (82.8%)
+Reads written (passing filters):        77,462 (17.2%)
+
+Total basepairs processed:   124,579,216 bp
+Total written (filtered):     20,338,082 bp (16.3%)
+
+=== Adapter 1 ===
+
+Sequence: TTCGTGATTCGAT; Type: regular 5'; Length: 13; Trimmed: 77462 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-13 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+10	1	0.4	0	1
+12	145	0.0	0	145
+13	75590	0.0	0	75590
+14	1725	0.0	0	1725
+15	1	0.0	0	1
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -g TTCCGATAACGAT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F08.fastq raw_seqs.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 1.49 s (3 µs/read; 18.23 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 451,347
+Reads with adapters:                    53,504 (11.9%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          397,843 (88.1%)
+Reads written (passing filters):        53,504 (11.9%)
+
+Total basepairs processed:   124,579,216 bp
+Total written (filtered):     13,920,707 bp (11.2%)
+
+=== Adapter 1 ===
+
+Sequence: TTCCGATAACGAT; Type: regular 5'; Length: 13; Trimmed: 53504 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-13 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	273	0.0	0	273
+13	52643	0.0	0	52643
+14	586	0.0	0	586
+15	2	0.0	0	2
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -g TGAGCGGAACGAT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F09.fastq raw_seqs.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 1.51 s (3 µs/read; 17.90 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 451,347
+Reads with adapters:                    30,838 (6.8%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          420,509 (93.2%)
+Reads written (passing filters):        30,838 (6.8%)
+
+Total basepairs processed:   124,579,216 bp
+Total written (filtered):      8,373,691 bp (6.7%)
+
+=== Adapter 1 ===
+
+Sequence: TGAGCGGAACGAT; Type: regular 5'; Length: 13; Trimmed: 30838 times
+
+Minimum overlap: 10
+No. of allowed errors:
+1-13 bp: 0
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+11	6	0.1	0	6
+12	5	0.0	0	5
+13	30773	0.0	0	30773
+14	53	0.0	0	53
+20	1	0.0	0	1
+This is cutadapt 3.5 with Python 3.8.10
+Command line parameters: -g CTGACCGAACGAT --discard-untrimmed -e 0 -j 0 --overlap 10 -o F10.fastq raw_seqs.fastq
+Processing reads on 8 cores in single-end mode ...
+Finished in 1.39 s (3 µs/read; 19.53 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 451,347
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          451,347 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:   124,579,216 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: CTGACCGAACGAT; Type: regular 5'; Length: 13; Trimmed: 0 times

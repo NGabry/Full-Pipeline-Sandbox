@@ -42,6 +42,8 @@ def per_sample_filter(filtering_integer, feature_table):
     #Export the new table as a qza for further use in Qiime2
     freq_filt_table.save('freq_filt_table.qza')
 
+    return freq_filt_table
+
 
 if __name__ == '__main__':
     main()
