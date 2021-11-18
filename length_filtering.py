@@ -11,7 +11,7 @@ from qiime2.plugins.feature_table.methods import filter_features, filter_seqs
 
 
     #Length filter of rep_seqs
-def length_filter(sequences, table, length_to_filter):
+def length_filter(representative_sequences, feature_table, length_to_filter):
     #Pull fasta from rep_seqs to use as metadata
     def extract_fasta(file, dest):
         with tempfile.TemporaryDirectory() as temp:
@@ -22,7 +22,7 @@ def length_filter(sequences, table, length_to_filter):
                     shutil.copy(item, dest)
 
     os.system('mkdir fastas')
-    extract_fasta(sequences, 'fastas')
+    extract_fasta(representative_sequences, 'fastas')
 
     #Parse fasta to get IDs and lengths, then send to df and filter IDs by length
     with open('fastas/dna-sequences.fasta') as fasta_file:
@@ -42,12 +42,12 @@ def length_filter(sequences, table, length_to_filter):
     exclude = Metadata.load("Features-to-exclude.csv")
 
     #Filter rep-seqs based on seqs_to_exclude
-    rep_seqs_filt = filter_seqs(sequences,
+    rep_seqs_filt = filter_seqs(representative_sequences,
                                metadata = exclude,
                                exclude_ids = True)
 
     #Filter table based on seqs_to_exclude
-    table_filt = filter_features(table,
+    table_filt = filter_features(feature_table,
                                 metadata = exclude,
                                 exclude_ids = True)
 
